@@ -1,0 +1,43 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px; /* 테이블의 최대 너비 설정 */
+  margin: 0 auto;
+  table-layout: fixed; /* 고정 레이아웃으로 열 너비 유지 */
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.deleteSVG, .editSVG, .saveSVG, .cancelSVG{
+  width: 20px;
+  height: 20px;
+}
+
+.termCol {
+  width: 45%; /* 단어 열 너비 */
+  text-align: left;
+}
+
+.definitionCol {
+  width: 35%; /* 의미 열 너비 */
+  text-align: left;
+}
+
+.actionCol {
+  width: 10%; /* 수정 및 삭제 열 너비 */
+  text-align: center; /* 버튼을 중앙 정렬 */
+}
+
+.input {
+  width: 90%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  border: none;
+}

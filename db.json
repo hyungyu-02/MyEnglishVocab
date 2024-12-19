@@ -1,0 +1,59 @@
+{
+  "words": [
+    {
+      "term": "extent",
+      "definition": "정도, 범위",
+      "id": "cd41"
+    },
+    {
+      "id": "30fe",
+      "term": "occupation",
+      "definition": "직업"
+    },
+    {
+      "id": "3e0b",
+      "term": "occupy",
+      "definition": "차지하디, 점령하다"
+    },
+    {
+      "term": "comparison",
+      "definition": "비교",
+      "id": "7cd7"
+    },
+    {
+      "term": "reception",
+      "definition": "수령",
+      "id": "6fd3"
+    },
+    {
+      "id": "ce4c",
+      "term": "instruction",
+      "definition": "설명, 지시"
+    },
+    {
+      "id": "f1a8",
+      "term": "distribution",
+      "definition": "분포, 분배"
+    },
+    {
+      "term": "transaction",
+      "definition": "거래",
+      "id": "98f4"
+    },
+    {
+      "id": "f5f4",
+      "term": "composition",
+      "definition": "구성(요소)"
+    },
+    {
+      "term": "recruitment",
+      "definition": "채용",
+      "id": "58d2"
+    },
+    {
+      "id": "05e3",
+      "term": "appliance",
+      "definition": "가전기기"
+    }
+  ]
+}

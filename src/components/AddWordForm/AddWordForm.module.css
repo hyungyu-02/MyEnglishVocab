@@ -1,0 +1,26 @@
+.form {
+  margin-bottom: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.table th, 
+.table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.addSVG{
+  width: 20px;
+}
+
+.input {
+  width: 90%;
+  padding: 4px;
+  box-sizing: border-box;
+}
