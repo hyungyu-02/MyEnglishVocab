@@ -10,6 +10,8 @@
 .table td {
   border-bottom: 1px solid #ccc;
   padding: 8px;
+  vertical-align: middle;
+  word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
 }
 
 .deleteSVG, .editSVG, .saveSVG, .cancelSVG{
@@ -34,10 +36,67 @@
 
 .input {
   width: 90%;
+  height: 100%;
   padding: 4px;
-  box-sizing: border-box;
+  border: 0;
+  border-radius: 6px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(51, 51, 51);
 }
 
 .button {
   border: none;
+}
+.deleteButton{
+  border: none;
+  background-color: rgb(255, 90, 90);
+}
+.deleteButton:hover{
+  background-color: rgb(255, 50, 50);
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+  .termCol {
+    width: 40%;
+  }
+
+  .definitionCol {
+    width: 40%;
+  }
+
+  .actionCol {
+    width: 20%;
+  }
+
+  .saveSVG,
+  .editSVG,
+  .cancelSVG,
+  .deleteSVG {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .termCol {
+    width: 35%;
+  }
+
+  .definitionCol {
+    width: 45%;
+  }
+
+  .actionCol {
+    width: 10%;
+  }
+
+  .saveSVG,
+  .editSVG,
+  .cancelSVG,
+  .deleteSVG {
+    width: 14px;
+    height: 14px;
+  }
 }

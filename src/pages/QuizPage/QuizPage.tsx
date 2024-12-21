@@ -22,6 +22,16 @@ const QuizPage: React.FC = () => {
       .catch(err => console.error(err));
   }, []);
 
+  const handleDelete = async (id: number) => {
+    try{
+        const response = await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
+        if (!response.ok) throw new Error('Failed to delete word');
+        setWords(prev => prev.filter(word => word.id !== id));
+    } catch (error){
+        console.error(error);
+    }
+  };
+
   const handleShowDefinition = () => {
     setShowDefinition(true);
   };
@@ -33,6 +43,7 @@ const QuizPage: React.FC = () => {
       setShowDefinition(false); // 다음 단어로 넘어갈 때 정의 숨기기
     } else {
       alert("테스트가 끝났습니다.");
+      // deleteIdList.forEach(id => handleDelete(id));
       navigate('/');// 모든 단어를 다 봤으니 메인 페이지로 이동
     }
   };
@@ -51,8 +62,7 @@ const QuizPage: React.FC = () => {
     <div className={styles.container}>
       <h2>단어 퀴즈</h2>
       <HomeButton />
-      <br />
-
+      <h4>{currentIndex+1} / {words.length}</h4>
       <div className={styles.quizArea}>
         <p><strong>단어:</strong> {currentWord.term}</p>
         {showDefinition && (
@@ -60,11 +70,26 @@ const QuizPage: React.FC = () => {
         )}
       </div>
 
-      {showDefinition ? (
-        <button className={styles.nextButton} onClick={handleNext}>다음</button>
-      ) : (
-        <button className={styles.showDefButton} onClick={handleShowDefinition}>뜻 보기</button>
-      )}
+      <div>
+        {showDefinition ? (
+          <button className={styles.nextButton} onClick={handleNext}>다음</button>
+        ) : (
+          <button className={styles.showDefButton} onClick={handleShowDefinition}>뜻 보기</button>
+        )}
+        <button className={styles.swipeButton} onClick={handleNext}>넘기기</button>
+      </div>
+      
+      <button
+          onClick={() => {
+            if (window.confirm('정말로 이 단어를 삭제하시겠습니까?')){
+              handleDelete(currentWord.id);
+            }
+          }}
+          className={styles.deleteButton}
+          type="button"
+      >
+          <img src='./delete.svg' alt='Delete' className={styles.deleteSVG} />
+      </button>
     </div>
   );
 };

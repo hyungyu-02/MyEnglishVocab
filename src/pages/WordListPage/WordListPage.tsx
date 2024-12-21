@@ -11,6 +11,7 @@ const WordListPage: React.FC = () => {
     const [editingId, setEditingId] = useState<number | null>(null);
     const [editingTerm, setEditingTerm] = useState('');
     const [editingDefinition, setEditingDefinition] = useState('');
+    const [deletingId, setDeletingId] = useState<number | null>(null);
 
     useEffect(() => {
         fetch(API_URL)
@@ -39,8 +40,15 @@ const WordListPage: React.FC = () => {
         }
     };
 
+    const handleDeleteStart = (id: number) => {
+        setDeletingId(id);
+    }
+
+    const handleDeleteCancel = () => {
+        setDeletingId(null);
+    }
+
     const handleDelete = async (id: number) => {
-        if (!window.confirm('정말로 이 단어를 삭제하시겠습니까?')) return;
         try{
             const response = await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
             if (!response.ok) throw new Error('Failed to delete word');
@@ -95,18 +103,23 @@ const WordListPage: React.FC = () => {
             <AddWordForm onAddWord={handleAddWord} />
             <br />
             
-            <ShowWords
-                words={words}
-                editingId={editingId}
-                editingTerm={editingTerm}
-                editingDefinition={editingDefinition}
-                onDelete={handleDelete}
-                onEditStart={handleEditStart}
-                onEditTermChange={setEditingTerm}
-                onEditDefinitionChange={setEditingDefinition}
-                onEditSave={handleEditSave}
-                onEditCancel={handleEditCancel}
-            />
+            <div className={styles.tableContainer}>
+                <ShowWords
+                    words={words}
+                    onDelete={handleDelete}
+                    onDeleteStart={handleDeleteStart}
+                    onDeleteCancel={handleDeleteCancel}
+                    deletingId={deletingId}
+                    editingId={editingId}
+                    editingTerm={editingTerm}
+                    editingDefinition={editingDefinition}
+                    onEditStart={handleEditStart}
+                    onEditTermChange={setEditingTerm}
+                    onEditDefinitionChange={setEditingDefinition}
+                    onEditSave={handleEditSave}
+                    onEditCancel={handleEditCancel}
+                />
+            </div>
         </div>
     );
 };

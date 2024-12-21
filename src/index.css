@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 a {
@@ -53,10 +58,10 @@ button:hover {
   /* border-color: #D0DFFB; */
   background-color: #145fc9;
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
-  /* outline: 4px auto -webkit-focus-ring-color; */
-}
+  outline: 4px auto -webkit-focus-ring-color;
+} */
 
 @media (prefers-color-scheme: light) {
   :root {

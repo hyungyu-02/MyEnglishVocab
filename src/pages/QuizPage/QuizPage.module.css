@@ -14,6 +14,18 @@
     margin-bottom: 20px;
 }
 
-.showDefButton, .nextButton{
-    width: 90px;
+.showDefButton, .nextButton, .swipeButton{
+    width: 88px;
+}
+.swipeButton{
+    margin-left: 10px;
+}
+
+.deleteButton{
+    border: none;
+    margin-top: 15px;
+}
+.deleteSVG{
+    width: 20px;
+    height: 20px;
 }

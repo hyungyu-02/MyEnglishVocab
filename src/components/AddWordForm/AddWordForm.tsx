@@ -38,10 +38,10 @@ const AddWordForm: React.FC<AddWordFormProps> = ({ onAddWord }) => {
                 <tbody>
                     <tr>
                         <td>
-                            <input ref={termInputRef} value={term} onChange={(e) => setTerm(e.target.value)} />
+                            <input ref={termInputRef} value={term} onChange={(e) => setTerm(e.target.value)} className={styles.termInput} />
                         </td>
                         <td>
-                            <input value={definition} onChange={(e) => setDefinition(e.target.value)} />
+                            <input value={definition} onChange={(e) => setDefinition(e.target.value)} className={styles.defInput} />
                         </td>
                         <td>
                             <button type="submit" className={styles.button}>

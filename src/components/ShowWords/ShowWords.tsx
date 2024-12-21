@@ -1,5 +1,3 @@
-// src/components/ShowWords/ShowWords.tsx
-
 import React from 'react';
 import { Word } from '../../types/Word';
 import styles from './ShowWords.module.css';
@@ -10,11 +8,14 @@ interface ShowWordsProps {
     editingTerm: string;
     editingDefinition: string;
     onDelete: (id: number) => void;
+    onDeleteStart: (id: number) => void;
+    deletingId: number | null;
     onEditStart: (word: Word) => void;
     onEditTermChange: (value: string) => void;
     onEditDefinitionChange: (value: string) => void;
     onEditSave: () => void;
     onEditCancel: () => void;
+    onDeleteCancel: () => void;
 }
 
 const ShowWords: React.FC<ShowWordsProps> = ({
@@ -23,11 +24,14 @@ const ShowWords: React.FC<ShowWordsProps> = ({
     editingTerm,
     editingDefinition,
     onDelete,
+    onDeleteStart,
+    deletingId,
     onEditStart,
     onEditTermChange,
     onEditDefinitionChange,
     onEditSave,
-    onEditCancel
+    onEditCancel,
+    onDeleteCancel
 }) => {
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -46,9 +50,59 @@ const ShowWords: React.FC<ShowWordsProps> = ({
                     <th className={styles.actionCol}>삭제</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody className={styles.tableBody}>
                 {words.map((word) => {
                     const isEditing = editingId === word.id;
+                    const isDeleting = deletingId === word.id;
+                    let editButton;
+                    let deleteButton;
+                    if (isEditing) {
+                        editButton = (
+                            <button onClick={onEditSave} className={styles.button} type="button" >
+                                <img src='./save.svg' alt='Save' className={styles.saveSVG} />
+                            </button>
+                        );
+                        deleteButton = (
+                          <button
+                            onClick={onEditCancel}
+                            className={styles.button}
+                            type="button"
+                          >
+                            <img src='./cancel.svg' alt='Cancel' className={styles.cancelSVG} />
+                          </button>
+                        );
+                    }else if (isDeleting) {
+                        editButton = (
+                            <button onClick={onDeleteCancel} className={styles.button} type="button" >
+                                <img src='./cancel.svg' alt='Cancel' className={styles.cancelSVG} />
+                            </button>
+                        );
+                        deleteButton = (
+                          <button
+                            onClick={() => onDelete(word.id)}
+                            className={styles.deleteButton}
+                            type="button"
+                          >
+                            <img src='./delete.svg' alt='Delete' className={styles.deleteSVG} />
+                          </button>
+                        );
+                    } else {
+                        editButton = (
+                            <button onClick={() => onEditStart(word)} className={styles.button} type="button" >
+                                <img src='./edit.svg' alt='Edit' className={styles.editSVG} />
+                            </button>
+                        );
+                        deleteButton = (
+                          <button
+                            onClick={() => onDeleteStart(word.id)}
+                            className={styles.button}
+                            type="button"
+                          >
+                            <img src='./delete.svg' alt='DeleteCheck' className={styles.deleteSVG} />
+                          </button>
+                        );
+                    }
+                    
                     return (
                         <tr key={word.id}>
                           {/* Term Column */}
@@ -82,28 +136,32 @@ const ShowWords: React.FC<ShowWordsProps> = ({
             
                           {/* Edit/Save Column */}
                           <td className={styles.actionCol}>
-                            {isEditing ? (
+
+                            {editButton}
+                            
+                            {/* {isEditing ? (
                                 <button
                                     onClick={onEditSave}
                                     className={styles.button}
-                                    type="button" // 폼 제출 방지
+                                    type="button"
                                 >
                                     <img src='./save.svg' alt='Save' className={styles.saveSVG} />
                                 </button>
                             ) : (
-                                <button
-                                    onClick={() => onEditStart(word)}
-                                    className={styles.button}
-                                    type="button"
-                                >
-                                    <img src='./edit.svg' alt='Edit' className={styles.editSVG} />
-                                </button>
-                            )}
+                              <button
+                                onClick={() => onEditStart(word)}
+                                className={styles.button}
+                                type="button"
+                              >
+                                <img src='./edit.svg' alt='Edit' className={styles.editSVG} />
+                              </button>
+                            )} */}
                           </td>
             
                           {/* Delete/Cancel Column */}
                           <td className={styles.actionCol}>
-                            {isEditing ? (
+                            {deleteButton}
+                            {/* {isEditing ? (
                                 <button
                                     onClick={onEditCancel}
                                     className={styles.button}
@@ -119,7 +177,7 @@ const ShowWords: React.FC<ShowWordsProps> = ({
                                 >
                                     <img src='./delete.svg' alt='Delete' className={styles.deleteSVG} />
                                 </button>
-                            )}
+                            )} */}
                           </td>
                         </tr>
                       );
