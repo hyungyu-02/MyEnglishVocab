@@ -43,15 +43,18 @@
   outline: none;
   padding-left: 10px;
   background-color: rgb(51, 51, 51);
+  color: white;
 }
 
 .button {
   border: none;
 }
+
 .deleteButton{
   border: none;
   background-color: rgb(255, 90, 90);
 }
+
 .deleteButton:hover{
   background-color: rgb(255, 50, 50);
 }
@@ -80,6 +83,33 @@
 }
 
 @media (max-width: 480px) {
+  .table {
+    display: block;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+  }
+  
   .termCol {
     width: 35%;
   }

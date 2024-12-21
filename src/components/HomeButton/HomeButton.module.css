@@ -1,8 +1,10 @@
 .buttonToMain {
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 .homeSVG{
     width: 20px;
-    color: white;
+    height: 20px;
 }

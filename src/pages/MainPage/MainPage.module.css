@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  /* .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  } */
+  
+  /* .button:hover {
+    background-color: #218838;
+  } */
+
+  .logout{
+    margin-top: 20px;
+  }

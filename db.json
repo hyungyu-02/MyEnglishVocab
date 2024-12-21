@@ -1,239 +1,302 @@
 {
+  "profiles": [
+    {
+      "id": "1",
+      "name": "고현규"
+    },
+    {
+      "id": "2",
+      "name": "관리자"
+    }
+  ],
   "words": [
     {
       "term": "occupation",
+      "profileId": 1,
       "definition": "직업",
       "id": "30fe"
     },
     {
       "id": "3e0b",
+      "profileId": 1,
       "term": "occupy",
       "definition": "차지하디, 점령하다"
     },
     {
       "term": "reception",
+      "profileId": 1,
       "definition": "수령",
       "id": "6fd3"
     },
     {
       "id": "ce4c",
+      "profileId": 1,
       "term": "instruction",
       "definition": "설명, 지시"
     },
     {
       "id": "f1a8",
+      "profileId": 1,
       "term": "distribution",
       "definition": "분포, 분배"
     },
     {
       "term": "transaction",
+      "profileId": 1,
       "definition": "거래",
       "id": "98f4"
     },
     {
       "id": "f5f4",
+      "profileId": 1,
       "term": "composition",
       "definition": "구성(요소)"
     },
     {
       "id": "05e3",
+      "profileId": 1,
       "term": "appliance",
       "definition": "가전기기"
     },
     {
       "id": "14e4",
+      "profileId": 1,
       "term": "vend",
       "definition": "팔다"
     },
     {
       "id": "f28b",
+      "profileId": 1,
       "term": "curb",
       "definition": "연석"
     },
     {
       "id": "86e8",
+      "profileId": 1,
       "term": "peel",
       "definition": "껍질을 벗기다"
     },
     {
       "id": "dfae",
+      "profileId": 1,
       "term": "coast",
       "definition": "해안"
     },
     {
       "id": "609a",
+      "profileId": 1,
       "term": "conduct",
       "definition": "행위하다"
     },
     {
       "id": "10e3",
+      "profileId": 1,
       "term": "register",
       "definition": "등록하다"
     },
     {
       "id": "76a7",
+      "profileId": 1,
       "term": "evaluate",
       "definition": "평가하다"
     },
     {
       "id": "a0ac",
+      "profileId": 1,
       "term": "forecast",
       "definition": "예측"
     },
     {
       "id": "c323",
+      "profileId": 1,
       "term": "accumulate",
       "definition": "쌓다, 모으다"
     },
     {
       "id": "7acc",
+      "profileId": 1,
       "term": "affordable",
       "definition": "저렴한"
     },
     {
       "id": "2481",
+      "profileId": 1,
       "term": "firm",
       "definition": "회사, 단단한"
     },
     {
       "id": "4d12",
+      "profileId": 1,
       "term": "commitment",
       "definition": "약속, 책임, 헌신, 전념"
     },
     {
       "id": "0833",
+      "profileId": 1,
       "term": "refer",
       "definition": "참조하다"
     },
     {
       "id": "b027",
+      "profileId": 1,
       "term": "admire",
       "definition": "존경하다"
     },
     {
       "id": "f0dd",
+      "profileId": 1,
       "term": "thorough",
       "definition": "철저하다"
     },
     {
       "id": "559b",
+      "profileId": 1,
       "term": "adjust",
       "definition": "조절하다"
     },
     {
       "id": "2208",
+      "profileId": 1,
       "term": "promissing",
       "definition": "전망이 좋다"
     },
     {
       "id": "ea3c",
+      "profileId": 1,
       "term": "diligence",
       "definition": "성실함"
     },
     {
       "id": "6a9c",
+      "profileId": 1,
       "term": "accountable",
       "definition": "책임이 있는"
     },
     {
       "id": "47c2",
+      "profileId": 1,
       "term": "accountant",
       "definition": "회계사"
     },
     {
       "id": "4313",
+      "profileId": 1,
       "term": "property",
       "definition": "부동산"
     },
     {
       "id": "ffa6",
+      "profileId": 1,
       "term": "stock",
       "definition": "주식"
     },
     {
       "id": "d579",
+      "profileId": 1,
       "term": "executive",
       "definition": "경영진"
     },
     {
       "id": "4917",
+      "profileId": 1,
       "term": "commuting",
       "definition": "출퇴근"
     },
     {
       "id": "ab65",
+      "profileId": 1,
       "term": "commence",
       "definition": "시작되다"
     },
     {
       "id": "6223",
+      "profileId": 1,
       "term": "entrance",
       "definition": "입구"
     },
     {
       "id": "946d",
+      "profileId": 1,
       "term": "intrusion",
       "definition": "침입"
     },
     {
       "id": "0a28",
+      "profileId": 1,
       "term": "instance",
       "definition": "사례"
     },
     {
       "id": "1abf",
+      "profileId": 1,
       "term": "restrict",
       "definition": "제한하다"
     },
     {
       "id": "3949",
+      "profileId": 1,
       "term": "administration",
       "definition": "경영진, 관리자"
     },
     {
       "id": "7bbe",
+      "profileId": 1,
       "term": "ought to",
       "definition": "~해야한다"
     },
     {
       "id": "79ab",
+      "profileId": 1,
       "term": "appointment",
       "definition": "약속"
     },
     {
       "id": "98ca",
+      "profileId": 1,
       "term": "superiority",
       "definition": "우월성"
     },
     {
       "id": "bc6a",
+      "profileId": 1,
       "term": "confidential",
       "definition": "비밀의, 은밀한"
     },
     {
       "id": "a37e",
+      "profileId": 1,
       "term": "grant",
       "definition": "승인하다"
     },
     {
       "id": "e574",
+      "profileId": 1,
       "term": "qualify",
       "definition": "자격을 갖추다"
     },
     {
       "id": "2281",
+      "profileId": 1,
       "term": "contestant",
       "definition": "참가자"
     },
     {
       "id": "7a19",
+      "profileId": 1,
       "term": "apply",
       "definition": "적용되다"
     },
     {
       "id": "e5d6",
+      "profileId": 1,
       "term": "confidence",
       "definition": "자신감"
+    },
+    {
+      "term": "testddd",
+      "definition": "테스트ddd",
+      "profileId": "2",
+      "id": "abc"
     }
   ]
 }

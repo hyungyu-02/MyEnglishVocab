@@ -1,34 +1,40 @@
 import React, { useEffect, useState } from 'react';
 import { Word } from '../../types/Word';
+import { useProfile } from '../../context/ProfileContext';
 import { useNavigate } from 'react-router-dom';
-import { API_URL } from '../../App';
 import styles from './QuizPage.module.css';
 import HomeButton from '../../components/HomeButton/HomeButton';
 
-
 const QuizPage: React.FC = () => {
+  const { selectedProfile } = useProfile();
   const [words, setWords] = useState<Word[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showDefinition, setShowDefinition] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(API_URL)
+    if (!selectedProfile) {
+      navigate('/');
+      return;
+    }
+
+    fetch(`http://localhost:3001/words?profileId=${selectedProfile.id}`)
       .then(res => res.json())
       .then((data: Word[]) => {
         const shuffled = shuffleArray(data);
         setWords(shuffled);
       })
       .catch(err => console.error(err));
-  }, []);
+  }, [selectedProfile, navigate]);
 
-  const handleDelete = async (id: number) => {
+  const handleDelete = async (id: string) => {
     try{
-        const response = await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
-        if (!response.ok) throw new Error('Failed to delete word');
-        setWords(prev => prev.filter(word => word.id !== id));
+      const response = await fetch(`http://localhost:3001/words/${id}`, { method: 'DELETE' });
+      if (!response.ok) throw new Error('단어 삭제 실패');
+      setWords(prev => prev.filter(word => word.id !== id));
     } catch (error){
-        console.error(error);
+      console.error(error);
+      alert('단어 삭제 중 오류가 발생했습니다.');
     }
   };
 
@@ -40,18 +46,18 @@ const QuizPage: React.FC = () => {
     const nextIndex = currentIndex + 1;
     if (nextIndex < words.length) {
       setCurrentIndex(nextIndex);
-      setShowDefinition(false); // 다음 단어로 넘어갈 때 정의 숨기기
+      setShowDefinition(false);
     } else {
       alert("테스트가 끝났습니다.");
-      // deleteIdList.forEach(id => handleDelete(id));
-      navigate('/');// 모든 단어를 다 봤으니 메인 페이지로 이동
+      navigate('/main'); // 모든 단어를 다 봤으니 메인 페이지로 이동
     }
   };
 
   if (words.length === 0) {
     return (
-      <div style={{ textAlign: 'center', padding: '20px' }}>
+      <div className={styles.container}>
         <h2>단어를 불러오는 중...</h2>
+        <HomeButton />
       </div>
     );
   }
@@ -62,7 +68,7 @@ const QuizPage: React.FC = () => {
     <div className={styles.container}>
       <h2>단어 퀴즈</h2>
       <HomeButton />
-      <h4>{currentIndex+1} / {words.length}</h4>
+      <h4>{currentIndex + 1} / {words.length}</h4>
       <div className={styles.quizArea}>
         <p><strong>단어:</strong> {currentWord.term}</p>
         {showDefinition && (
@@ -70,31 +76,30 @@ const QuizPage: React.FC = () => {
         )}
       </div>
 
-      <div>
+      <div className={styles.buttons}>
         {showDefinition ? (
           <button className={styles.nextButton} onClick={handleNext}>다음</button>
         ) : (
           <button className={styles.showDefButton} onClick={handleShowDefinition}>뜻 보기</button>
         )}
-        <button className={styles.swipeButton} onClick={handleNext}>넘기기</button>
+        <button className={styles.skipButton} onClick={handleNext}>넘기기</button>
       </div>
       
       <button
-          onClick={() => {
-            if (window.confirm('정말로 이 단어를 삭제하시겠습니까?')){
-              handleDelete(currentWord.id);
-            }
-          }}
-          className={styles.deleteButton}
-          type="button"
+        onClick={() => {
+          if (window.confirm('정말로 이 단어를 삭제하시겠습니까?')){
+            handleDelete(currentWord.id);
+          }
+        }}
+        className={styles.deleteButton}
+        type="button"
+        aria-label="Delete word"
       >
-          <img src='./delete.svg' alt='Delete' className={styles.deleteSVG} />
+        <img src='./delete.svg' alt='Delete' className={styles.deleteSVG} />
       </button>
     </div>
   );
 };
-
-export default QuizPage;
 
 // Fisher-Yates Shuffle 알고리즘
 function shuffleArray<T>(array: T[]): T[] {
@@ -105,3 +110,5 @@ function shuffleArray<T>(array: T[]): T[] {
   }
   return arr;
 }
+
+export default QuizPage;

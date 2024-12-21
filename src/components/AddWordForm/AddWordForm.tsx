@@ -22,6 +22,7 @@ const AddWordForm: React.FC<AddWordFormProps> = ({ onAddWord }) => {
             termInputRef.current?.focus();
         } catch (error) {
             console.error(error);
+            alert('단어 추가 중 오류가 발생했습니다.');
         }
     }
 
@@ -38,14 +39,27 @@ const AddWordForm: React.FC<AddWordFormProps> = ({ onAddWord }) => {
                 <tbody>
                     <tr>
                         <td>
-                            <input ref={termInputRef} value={term} onChange={(e) => setTerm(e.target.value)} className={styles.termInput} />
+                            <input
+                                ref={termInputRef}
+                                value={term}
+                                onChange={(e) => setTerm(e.target.value)}
+                                className={styles.termInput}
+                                placeholder="단어 입력"
+                                aria-label="단어 입력"
+                            />
                         </td>
                         <td>
-                            <input value={definition} onChange={(e) => setDefinition(e.target.value)} className={styles.defInput} />
+                            <input
+                                value={definition}
+                                onChange={(e) => setDefinition(e.target.value)}
+                                className={styles.defInput}
+                                placeholder="의미 입력"
+                                aria-label="의미 입력"
+                            />
                         </td>
                         <td>
-                            <button type="submit" className={styles.button}>
-                                <img src='./add.svg' alt='addSVG' className={styles.addSVG}/>
+                            <button type="submit" className={styles.button} aria-label="Add word">
+                                <img src='./add.svg' alt='Add' className={styles.addSVG}/>
                             </button>
                         </td>
                     </tr>

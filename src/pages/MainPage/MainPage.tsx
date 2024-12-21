@@ -1,27 +1,57 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { API_URL } from '../../App';
+import { Link, useNavigate } from 'react-router-dom';
+import { useProfile } from '../../context/ProfileContext';
+import styles from './MainPage.module.css';
+import LogoutButton from '../../components/LogoutButton/LogoutButton';
 import { Word } from '../../types/Word';
 
 const MainPage: React.FC = () => {
   const [words, setWords] = useState<Word[]>([]);
+  const { selectedProfile } = useProfile();
+  const navigate = useNavigate();
+  const [isLodading, setIsLoading] = useState(true);
+
   useEffect(() => {
-    fetch(API_URL)
-      .then(response => response.json())
-      .then(data => setWords(data as Word[]))
-      .catch(err => console.error(err));
-  }, []);
+    if (!selectedProfile) {
+      navigate('/');
+      return;
+    };
+
+    fetch(`http://localhost:3001/words?profileId=${selectedProfile.id}`)
+      .then(res => res.json())
+      .then((data: Word[]) => {
+        setWords(data);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error(err);
+        setIsLoading(false);
+      });
+  }, [selectedProfile, navigate]);
+
+  if(!selectedProfile) {
+    return null;
+  }
+
+  if (isLodading) {
+    return <div>Loading...</div>;
+  }
+
   return (
-    <div style={{ padding: '20px' }}>
+    <div className={styles.container}>
+      <h2>Welcome, {selectedProfile.name}!</h2>
       <h1>My English Vocabulary</h1>
       <p>단어 개수 : <strong>{words.length}</strong></p>
-      <div style={{ marginTop: '20px' }}>
+      <div className={styles.buttons}>
         <Link to="/words">
-          <button style={{ marginRight: '15px' }}>나의 단어장</button>
+          <button className={styles.button}>나의 단어장</button>
         </Link>
         <Link to="/quiz">
-          <button>단어 테스트</button>
+          <button className={styles.button}>단어 테스트</button>
         </Link>
+      </div>
+      <div className={styles.logout}>
+        <LogoutButton />
       </div>
     </div>
   );

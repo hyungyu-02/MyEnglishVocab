@@ -4,28 +4,70 @@
     align-items: center;
     padding: 20px;
 }
-.quizArea{
+
+.quizArea {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
-    height: 100px;
+    min-height: 100px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.showDefButton, .nextButton, .swipeButton{
-    width: 88px;
-}
-.swipeButton{
-    margin-left: 10px;
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.deleteButton{
+.showDefButton, .nextButton, .skipButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
     border: none;
-    margin-top: 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
 }
-.deleteSVG{
+
+.showDefButton {
+    background-color: #007bff;
+    color: white;
+}
+
+.showDefButton:hover {
+    background-color: #0056b3;
+}
+
+.nextButton {
+    background-color: #28a745;
+    color: white;
+}
+
+.nextButton:hover {
+    background-color: #218838;
+}
+
+.skipButton {
+    background-color: #6c757d;
+    color: white;
+}
+
+.skipButton:hover {
+    background-color: #5a6268;
+}
+
+.deleteButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.deleteButton:hover .deleteSVG {
+    opacity: 0.7;
+}
+
+.deleteSVG {
     width: 20px;
     height: 20px;
 }

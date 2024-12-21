@@ -1,0 +1,28 @@
+.button {
+    padding: 6px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: opacity 0.3s;
+  }
+  
+  .button:hover {
+    opacity: 0.7;
+  }
+  
+  .saveSVG,
+  .editSVG,
+  .cancelSVG,
+  .deleteSVG {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Delete 버튼 스타일링 */
+  .deleteButton {
+    background-color: transparent;
+  }
+  
+  .deleteButton:hover {
+    opacity: 0.7;
+  }
