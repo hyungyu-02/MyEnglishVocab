@@ -1,0 +1,10 @@
+.deleteAccountButton {
+    font-size: 14px;
+    background-color: rgb(255, 100, 100);
+    width: 100px;
+  }
+  
+  .deleteAccountButton:hover {
+    background-color: rgb(255, 70, 70);
+    color: white;
+  }

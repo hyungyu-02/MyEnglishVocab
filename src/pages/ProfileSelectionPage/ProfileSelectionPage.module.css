@@ -7,11 +7,12 @@
   
   .profileList {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
     margin-bottom: 30px;
     margin-top: 5px;
+    max-width: 500px;
   }
   
   /* .profileButton {

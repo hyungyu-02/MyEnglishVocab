@@ -20,12 +20,12 @@
 }
 
 .termCol {
-  width: 45%; /* 단어 열 너비 */
+  width: 42%; /* 단어 열 너비 */
   text-align: left;
 }
 
 .definitionCol {
-  width: 35%; /* 의미 열 너비 */
+  width: 38%; /* 의미 열 너비 */
   text-align: left;
 }
 

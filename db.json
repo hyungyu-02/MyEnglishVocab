@@ -7,13 +7,17 @@
     {
       "id": "2",
       "name": "관리자"
+    },
+    {
+      "id": "c405",
+      "name": "테스트1"
     }
   ],
   "words": [
     {
       "term": "occupation",
-      "profileId": 1,
       "definition": "직업",
+      "profileId": "1",
       "id": "30fe"
     },
     {
@@ -293,8 +297,8 @@
       "definition": "자신감"
     },
     {
-      "term": "testddd",
-      "definition": "테스트ddd",
+      "term": "test",
+      "definition": "테스트",
       "profileId": "2",
       "id": "abc"
     }

@@ -122,7 +122,7 @@ const WordListPage: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>{selectedProfile.name}의 단어장</h2>
+      <h2 className={styles.title}>{selectedProfile.name}'s Word List</h2>
 
       <HomeButton />
       <br />

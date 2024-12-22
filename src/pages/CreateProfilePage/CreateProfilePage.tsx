@@ -41,7 +41,7 @@ const CreateProfilePage: React.FC = () => {
     <div className={styles.container}>
       <h2>새 프로필 만들기</h2>
       <form onSubmit={handleCreateProfile} className={styles.form}>
-        <label htmlFor="profileName">프로필 이름:</label>
+        <label htmlFor="profileName">프로필 이름</label>
         <input
           type="text"
           id="profileName"
@@ -49,6 +49,7 @@ const CreateProfilePage: React.FC = () => {
           onChange={(e) => setProfileName(e.target.value)}
           className={styles.input}
           required
+          autoFocus
           placeholder="이름을 입력해주세요"
           aria-label="프로필 이름 입력"
         />

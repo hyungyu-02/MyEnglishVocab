@@ -24,50 +24,20 @@
 .showDefButton, .nextButton, .skipButton {
     padding: 10px 20px;
     font-size: 14px;
-    cursor: pointer;
-    border: none;
-    border-radius: 6px;
-    transition: background-color 0.3s;
-}
-
-.showDefButton {
-    background-color: #007bff;
-    color: white;
-}
-
-.showDefButton:hover {
-    background-color: #0056b3;
-}
-
-.nextButton {
-    background-color: #28a745;
-    color: white;
-}
-
-.nextButton:hover {
-    background-color: #218838;
+    width: 85px;
+    height: 41px;
 }
 
 .skipButton {
-    background-color: #6c757d;
+    background-color: rgb(110, 110, 110);
     color: white;
 }
 
 .skipButton:hover {
-    background-color: #5a6268;
-}
-
-.deleteButton {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.deleteButton:hover .deleteSVG {
-    opacity: 0.7;
+    background-color: rgb(90, 90, 90);
 }
 
 .deleteSVG {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }

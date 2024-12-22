@@ -4,6 +4,7 @@ import { useProfile } from '../../context/ProfileContext';
 import styles from './MainPage.module.css';
 import LogoutButton from '../../components/LogoutButton/LogoutButton';
 import { Word } from '../../types/Word';
+import DeleteAccountButton from '../../components/DeleteAccountButton/DeleteAccountButton';
 
 const MainPage: React.FC = () => {
   const [words, setWords] = useState<Word[]>([]);
@@ -52,7 +53,9 @@ const MainPage: React.FC = () => {
       </div>
       <div className={styles.logout}>
         <LogoutButton />
+        <DeleteAccountButton />
       </div>
+
     </div>
   );
 };
