@@ -3,4 +3,5 @@ export interface Word {
     profileId: number;
     term: string;
     definition: string;
+    level: number;
 }

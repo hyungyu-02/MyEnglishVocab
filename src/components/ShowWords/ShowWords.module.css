@@ -14,19 +14,36 @@
   word-wrap: break-word; /* 단어가 길 경우 줄바꿈 */
 }
 
+
+/* .table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+} */
+
 .deleteSVG, .editSVG, .saveSVG, .cancelSVG{
   width: 20px;
   height: 20px;
 }
 
 .termCol {
-  width: 42%; /* 단어 열 너비 */
+  width: 35%; /* 단어 열 너비 */
   text-align: left;
 }
 
 .definitionCol {
-  width: 38%; /* 의미 열 너비 */
+  width: 31%; /* 의미 열 너비 */
   text-align: left;
+}
+
+.levelCol{
+  width: 14%;
 }
 
 .actionCol {

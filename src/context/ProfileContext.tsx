@@ -39,14 +39,16 @@ export const ProfileProvider: React.FC<{ children: ReactNode }> = ({ children })
       if (!response.ok) throw new Error('프로필 삭제 실패');
 
       const wordsResponse = await fetch(`http://localhost:3001/words?profileId=${profileId}`);
-      if (!wordsResponse.ok) throw new Error('단어 목록 불러오기 실패');
-      else{
+      if (!wordsResponse.ok){
+        throw new Error('단어 목록 불러오기 실패');
+      } else {
         const words: Word[] = await wordsResponse.json();
         const deletePromises = words.map(word =>
           fetch(`http://localhost:3001/words/${word.id}`, { method: 'DELETE' })
         );
         await Promise.all(deletePromises);
       }
+      
       
       setProfiles((prev) => prev.filter((profile) => profile.id !== profileId));
 

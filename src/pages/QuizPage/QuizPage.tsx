@@ -43,20 +43,52 @@ const QuizPage: React.FC = () => {
   };
 
   const handleNext = () => {
-    const nextIndex = currentIndex + 1;
-    if (nextIndex < words.length) {
-      setCurrentIndex(nextIndex);
-      setShowDefinition(false);
-    } else {
-      alert("테스트가 끝났습니다.");
-      navigate('/main'); // 모든 단어를 다 봤으니 메인 페이지로 이동
+    setShowDefinition(false);
+    setCurrentIndex((prev) => prev + 1);
+  };
+
+  const handleMarkAsLearned = async () => {
+    if (currentIndex >= words.length) return;
+    const word = words[currentIndex];
+
+    try {
+      const updatedWord = { ...word, level: word.level + 1 };
+
+      const response = await fetch(`http://localhost:3001/words/${word.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updatedWord),
+      });
+
+      if (!response.ok) throw new Error('Level 업데이트 실패');
+
+      // 단어 목록 업데이트
+      setWords((prev) =>
+        prev.map((w) => (w.id === word.id ? updatedWord : w))
+      );
+
+      alert(`"${word.term}"의 레벨이 ${word.level + 1}로 증가했습니다.`);
+    } catch (error) {
+      console.error(error);
+      alert('단어 레벨 업데이트 중 오류가 발생했습니다.');
     }
+
+    handleNext();
   };
 
   if (words.length === 0) {
     return (
       <div className={styles.container}>
         <h2>단어를 불러오는 중...</h2>
+        <HomeButton />
+      </div>
+    );
+  }
+
+  if(currentIndex >= words.length){
+    return (
+      <div className={styles.container}>
+        <h2>테스트가 끝났습니다!</h2>
         <HomeButton />
       </div>
     );
@@ -72,7 +104,16 @@ const QuizPage: React.FC = () => {
       <div className={styles.quizArea}>
         <p><strong>단어:</strong> {currentWord.term}</p>
         {showDefinition && (
-          <p><strong>뜻:</strong> {currentWord.definition}</p>
+          <>
+            <p><strong>뜻:</strong> {currentWord.definition}</p>
+            <button
+              onClick={handleMarkAsLearned}
+              className={styles.learnedButton}
+              aria-label="외웠습니다"
+            >
+              <img src='./correct.svg' alt='외웠습니다' className={styles.correctSVG} />
+            </button>
+          </>
         )}
       </div>
 

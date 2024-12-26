@@ -14,6 +14,7 @@ const WordListPage: React.FC = () => {
   const [editingTerm, setEditingTerm] = useState('');
   const [editingDefinition, setEditingDefinition] = useState('');
   const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [isSortedAsc, setIsSortedAsc] = useState<boolean>(true);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -36,6 +37,7 @@ const WordListPage: React.FC = () => {
       term: term.trim(),
       definition: definition.trim(),
       profileId: selectedProfile.id,
+      level: 0,
     };
 
     try {
@@ -94,6 +96,7 @@ const WordListPage: React.FC = () => {
       term: editingTerm.trim(),
       definition: editingDefinition.trim(),
       profileId: selectedProfile.id,
+      level: words.find(w => w.id === editingId)?.level || 0 // 기존 level 유지
     };
 
     try {
@@ -116,6 +119,18 @@ const WordListPage: React.FC = () => {
     }
   };
 
+  const handleSort = () => {
+    const sortedWords = [...words].sort((a, b) => {
+      const termA = a.term.toLowerCase();
+      const termB = b.term.toLowerCase();
+      if(termA < termB) return isSortedAsc ? -1 : 1;
+      if(termA > termB) return isSortedAsc ? 1 : -1;
+      return 0;
+    });
+    setWords(sortedWords);
+    setIsSortedAsc(!isSortedAsc);
+  };
+
   if (!selectedProfile) {
     return null; // 로딩 스피너나 메시지 추가 가능
   }
@@ -127,8 +142,21 @@ const WordListPage: React.FC = () => {
       <HomeButton />
       <br />
 
-      <AddWordForm onAddWord={handleAddWord} />
-      <br />
+      <div className={styles.addWordFormContainer}>
+        <AddWordForm onAddWord={handleAddWord} />
+      </div>
+      
+      
+
+      <div className={styles.sortButtonContainer}>
+        <button onClick={handleSort} className={styles.sortButton} aria-label="Sort words">
+          {isSortedAsc ? 
+            <img src='./za.svg' alt='za' className={styles.zaSVG}/>
+          : 
+            <img src='./az.svg' alt='az' className={styles.azSVG}/> 
+          }
+        </button>
+      </div>
 
       <div className={styles.tableContainer} aria-label="Word list table">
         <ShowWords

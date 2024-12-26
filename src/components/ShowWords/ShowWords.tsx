@@ -48,6 +48,7 @@ const ShowWords: React.FC<ShowWordsProps> = ({
         <tr>
           <th className={styles.termCol}>단어</th>
           <th className={styles.definitionCol}>의미</th>
+          <th className={styles.levelCol}>레벨</th>
           <th className={styles.actionCol}>수정</th>
           <th className={styles.actionCol}>삭제</th>
         </tr>
@@ -88,6 +89,10 @@ const ShowWords: React.FC<ShowWordsProps> = ({
                 ) : (
                   word.definition
                 )}
+              </td>
+
+              <td className={styles.levelCol} data-label="레벨">
+                {word.level}
               </td>
 
               {/* Edit/Save Column */}

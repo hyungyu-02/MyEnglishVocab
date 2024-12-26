@@ -5,10 +5,6 @@
       "name": "고현규"
     },
     {
-      "id": "2",
-      "name": "관리자"
-    },
-    {
       "id": "c405",
       "name": "테스트1"
     }
@@ -18,289 +14,666 @@
       "term": "occupation",
       "definition": "직업",
       "profileId": "1",
-      "id": "30fe"
+      "id": "30fe",
+      "level": 0
     },
     {
       "id": "3e0b",
       "profileId": 1,
       "term": "occupy",
-      "definition": "차지하디, 점령하다"
+      "definition": "차지하디, 점령하다",
+      "level": 0
     },
     {
       "term": "reception",
       "profileId": 1,
       "definition": "수령",
-      "id": "6fd3"
+      "id": "6fd3",
+      "level": 0
     },
     {
       "id": "ce4c",
       "profileId": 1,
       "term": "instruction",
-      "definition": "설명, 지시"
+      "definition": "설명, 지시",
+      "level": 0
     },
     {
       "id": "f1a8",
       "profileId": 1,
       "term": "distribution",
-      "definition": "분포, 분배"
+      "definition": "분포, 분배",
+      "level": 0
     },
     {
       "term": "transaction",
       "profileId": 1,
       "definition": "거래",
-      "id": "98f4"
+      "id": "98f4",
+      "level": 0
     },
     {
       "id": "f5f4",
       "profileId": 1,
       "term": "composition",
-      "definition": "구성(요소)"
+      "definition": "구성(요소)",
+      "level": 0
     },
     {
       "id": "05e3",
       "profileId": 1,
       "term": "appliance",
-      "definition": "가전기기"
+      "definition": "가전기기",
+      "level": 0
     },
     {
       "id": "14e4",
       "profileId": 1,
       "term": "vend",
-      "definition": "팔다"
+      "definition": "팔다",
+      "level": 0
     },
     {
       "id": "f28b",
       "profileId": 1,
       "term": "curb",
-      "definition": "연석"
+      "definition": "연석",
+      "level": 0
     },
     {
       "id": "86e8",
       "profileId": 1,
       "term": "peel",
-      "definition": "껍질을 벗기다"
+      "definition": "껍질을 벗기다",
+      "level": 0
     },
     {
       "id": "dfae",
       "profileId": 1,
       "term": "coast",
-      "definition": "해안"
+      "definition": "해안",
+      "level": 0
     },
     {
       "id": "609a",
       "profileId": 1,
       "term": "conduct",
-      "definition": "행위하다"
+      "definition": "행위하다",
+      "level": 0
     },
     {
       "id": "10e3",
       "profileId": 1,
       "term": "register",
-      "definition": "등록하다"
+      "definition": "등록하다",
+      "level": 0
     },
     {
       "id": "76a7",
       "profileId": 1,
       "term": "evaluate",
-      "definition": "평가하다"
+      "definition": "평가하다",
+      "level": 0
     },
     {
       "id": "a0ac",
       "profileId": 1,
       "term": "forecast",
-      "definition": "예측"
+      "definition": "예측",
+      "level": 0
     },
     {
       "id": "c323",
       "profileId": 1,
       "term": "accumulate",
-      "definition": "쌓다, 모으다"
+      "definition": "쌓다, 모으다",
+      "level": 0
     },
     {
       "id": "7acc",
       "profileId": 1,
       "term": "affordable",
-      "definition": "저렴한"
+      "definition": "저렴한",
+      "level": 0
     },
     {
       "id": "2481",
       "profileId": 1,
       "term": "firm",
-      "definition": "회사, 단단한"
+      "definition": "회사, 단단한",
+      "level": 0
     },
     {
       "id": "4d12",
       "profileId": 1,
       "term": "commitment",
-      "definition": "약속, 책임, 헌신, 전념"
+      "definition": "약속, 책임, 헌신, 전념",
+      "level": 0
     },
     {
       "id": "0833",
       "profileId": 1,
       "term": "refer",
-      "definition": "참조하다"
+      "definition": "참조하다",
+      "level": 0
     },
     {
       "id": "b027",
       "profileId": 1,
       "term": "admire",
-      "definition": "존경하다"
+      "definition": "존경하다",
+      "level": 0
     },
     {
       "id": "f0dd",
       "profileId": 1,
       "term": "thorough",
-      "definition": "철저하다"
+      "definition": "철저하다",
+      "level": 0
     },
     {
       "id": "559b",
       "profileId": 1,
       "term": "adjust",
-      "definition": "조절하다"
+      "definition": "조절하다",
+      "level": 0
     },
     {
       "id": "2208",
       "profileId": 1,
       "term": "promissing",
-      "definition": "전망이 좋다"
+      "definition": "전망이 좋다",
+      "level": 0
     },
     {
       "id": "ea3c",
       "profileId": 1,
       "term": "diligence",
-      "definition": "성실함"
+      "definition": "성실함",
+      "level": 0
     },
     {
       "id": "6a9c",
       "profileId": 1,
       "term": "accountable",
-      "definition": "책임이 있는"
+      "definition": "책임이 있는",
+      "level": 0
     },
     {
       "id": "47c2",
       "profileId": 1,
       "term": "accountant",
-      "definition": "회계사"
+      "definition": "회계사",
+      "level": 0
     },
     {
       "id": "4313",
       "profileId": 1,
       "term": "property",
-      "definition": "부동산"
+      "definition": "부동산",
+      "level": 0
     },
     {
       "id": "ffa6",
       "profileId": 1,
       "term": "stock",
-      "definition": "주식"
+      "definition": "주식",
+      "level": 0
     },
     {
       "id": "d579",
       "profileId": 1,
       "term": "executive",
-      "definition": "경영진"
+      "definition": "경영진",
+      "level": 0
     },
     {
       "id": "4917",
       "profileId": 1,
       "term": "commuting",
-      "definition": "출퇴근"
+      "definition": "출퇴근",
+      "level": 0
     },
     {
       "id": "ab65",
       "profileId": 1,
       "term": "commence",
-      "definition": "시작되다"
+      "definition": "시작되다",
+      "level": 0
     },
     {
       "id": "6223",
       "profileId": 1,
       "term": "entrance",
-      "definition": "입구"
+      "definition": "입구",
+      "level": 0
     },
     {
       "id": "946d",
       "profileId": 1,
       "term": "intrusion",
-      "definition": "침입"
+      "definition": "침입",
+      "level": 0
     },
     {
       "id": "0a28",
       "profileId": 1,
       "term": "instance",
-      "definition": "사례"
+      "definition": "사례",
+      "level": 0
     },
     {
       "id": "1abf",
       "profileId": 1,
       "term": "restrict",
-      "definition": "제한하다"
+      "definition": "제한하다",
+      "level": 0
     },
     {
       "id": "3949",
       "profileId": 1,
       "term": "administration",
-      "definition": "경영진, 관리자"
+      "definition": "경영진, 관리자",
+      "level": 0
     },
     {
       "id": "7bbe",
       "profileId": 1,
       "term": "ought to",
-      "definition": "~해야한다"
+      "definition": "~해야한다",
+      "level": 0
     },
     {
       "id": "79ab",
       "profileId": 1,
       "term": "appointment",
-      "definition": "약속"
+      "definition": "약속",
+      "level": 0
     },
     {
       "id": "98ca",
       "profileId": 1,
       "term": "superiority",
-      "definition": "우월성"
+      "definition": "우월성",
+      "level": 0
     },
     {
       "id": "bc6a",
       "profileId": 1,
       "term": "confidential",
-      "definition": "비밀의, 은밀한"
+      "definition": "비밀의, 은밀한",
+      "level": 0
     },
     {
       "id": "a37e",
       "profileId": 1,
       "term": "grant",
-      "definition": "승인하다"
+      "definition": "승인하다",
+      "level": 0
     },
     {
       "id": "e574",
       "profileId": 1,
       "term": "qualify",
-      "definition": "자격을 갖추다"
+      "definition": "자격을 갖추다",
+      "level": 0
     },
     {
       "id": "2281",
       "profileId": 1,
       "term": "contestant",
-      "definition": "참가자"
+      "definition": "참가자",
+      "level": 0
     },
     {
       "id": "7a19",
       "profileId": 1,
       "term": "apply",
-      "definition": "적용되다"
+      "definition": "적용되다",
+      "level": 0
     },
     {
       "id": "e5d6",
       "profileId": 1,
       "term": "confidence",
-      "definition": "자신감"
+      "definition": "자신감",
+      "level": 0
     },
     {
-      "term": "test",
-      "definition": "테스트",
-      "profileId": "2",
-      "id": "abc"
+      "id": "4b77",
+      "term": "proposal",
+      "definition": "제안(서)",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "3540",
+      "term": "petition",
+      "definition": "청원서, 탄원서",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "8f77",
+      "term": "contribute to",
+      "definition": "기여하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "b440",
+      "term": "submission",
+      "definition": "제출, 제기",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "22c9",
+      "term": "application",
+      "definition": "지원서",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "efe4",
+      "term": "incident",
+      "definition": "사건",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "term": "council",
+      "definition": "의회",
+      "profileId": "1",
+      "id": "c76c",
+      "level": 0
+    },
+    {
+      "id": "12c4",
+      "term": "patron",
+      "definition": "후원자",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7c3c",
+      "term": "budget",
+      "definition": "예산",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "d38f",
+      "term": "offer",
+      "definition": "제의[제안] 하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "3193",
+      "term": "clerk",
+      "definition": "직원, 점원",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "5232",
+      "term": "exhibit",
+      "definition": "전시품",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "c760",
+      "term": "amuse",
+      "definition": "즐겁게하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "5771",
+      "term": "convince",
+      "definition": "납득시키다, 설득하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "b086",
+      "term": "absorbed in",
+      "definition": "~에 몰두하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "4f57",
+      "term": "entitle",
+      "definition": "자격을 주다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "74cd",
+      "term": "encourage",
+      "definition": "격려하다, 권장하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "e1a4",
+      "term": "revise",
+      "definition": "변경[수정] 하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "ff41",
+      "term": "accumulate",
+      "definition": "모으다, 축적하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "3a60",
+      "term": "attorney",
+      "definition": "변호사, 대리인",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "c17a",
+      "term": "certain",
+      "definition": "확신하는",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "69fb",
+      "term": "agreement",
+      "definition": "계약",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "e97d",
+      "term": "interpret",
+      "definition": "이해[해석]하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "d610",
+      "term": "corporate",
+      "definition": "기업의",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "fd35",
+      "term": "district",
+      "definition": "지구, 지역",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "384d",
+      "term": "discretion",
+      "definition": "재량, 신중함",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "e248",
+      "term": "retention",
+      "definition": "유지, 보유",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "97c5",
+      "term": "currency",
+      "definition": "통화, 화폐",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7de1",
+      "term": "lease",
+      "definition": "임대",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "4a7d",
+      "term": "operation",
+      "definition": "영업, 사업",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "3852",
+      "term": "operate",
+      "definition": "작동되다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "9c12",
+      "term": "appearance",
+      "definition": "외관",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "df03",
+      "term": "presence",
+      "definition": "인지도",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "3a77",
+      "term": "indicate",
+      "definition": "나타내다, 내비치다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "83c7",
+      "term": "assess",
+      "definition": "평가하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "3663",
+      "term": "feasibility",
+      "definition": "실현가능성",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "713e",
+      "term": "discrepancy",
+      "definition": "차이",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "a5e3",
+      "term": "restraint",
+      "definition": "규제",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "ac6f",
+      "term": "allowance",
+      "definition": "수당",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "49b9",
+      "term": "proposition",
+      "definition": "제의",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "e99c",
+      "term": "involve",
+      "definition": "수반하다, 관련시키다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "229b",
+      "term": "factor",
+      "definition": "요인",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "2ff5",
+      "term": "itinerary",
+      "definition": "여행일정",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "25e1",
+      "term": "occupy",
+      "definition": "차지[점령] 하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "cf9a",
+      "term": "admission",
+      "definition": "가입, 인정, 입장료",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "1c21",
+      "term": "1",
+      "definition": "11",
+      "profileId": "c405",
+      "level": 1
+    },
+    {
+      "id": "338e",
+      "term": "2",
+      "definition": "22",
+      "profileId": "c405",
+      "level": 1
+    },
+    {
+      "id": "4510",
+      "term": "3",
+      "definition": "33",
+      "profileId": "c405",
+      "level": 1
     }
   ]
 }
