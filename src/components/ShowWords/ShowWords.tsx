@@ -42,10 +42,13 @@ const ShowWords: React.FC<ShowWordsProps> = ({
     }
   };
 
+  let sequence = 1;
+
   return (
     <table className={styles.table}>
       <thead>
         <tr>
+          <th className={styles.sequenceCol}></th>
           <th className={styles.termCol}>단어</th>
           <th className={styles.definitionCol}>의미</th>
           <th className={styles.levelCol}>레벨</th>
@@ -60,6 +63,10 @@ const ShowWords: React.FC<ShowWordsProps> = ({
 
           return (
             <tr key={word.id}>
+              {/* Sequence Column */}
+              <td className={styles.sequenceCol} data-label="No.">
+                {sequence++}
+              </td>
               {/* Term Column */}
               <td className={styles.termCol} data-label="단어">
                 {isEditing ? (

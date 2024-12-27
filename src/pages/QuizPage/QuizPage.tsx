@@ -13,6 +13,7 @@ const QuizPage: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    console.log('QuizPage rendered');
     if (!selectedProfile) {
       navigate('/');
       return;
