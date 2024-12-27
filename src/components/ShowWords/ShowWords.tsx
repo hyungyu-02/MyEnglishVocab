@@ -99,7 +99,7 @@ const ShowWords: React.FC<ShowWordsProps> = ({
               </td>
 
               <td className={styles.levelCol} data-label="레벨">
-                {word.level}
+                <strong>{word.level}</strong>
               </td>
 
               {/* Edit/Save Column */}

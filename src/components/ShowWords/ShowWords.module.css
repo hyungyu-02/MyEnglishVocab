@@ -33,15 +33,16 @@
 }
 
 .sequenceCol {
-  width: 4%;
+  width: 6%;
+  font-size: 13px;
 }
 .termCol {
-  width: 33%; /* 단어 열 너비 */
+  width: 32%; /* 단어 열 너비 */
   text-align: left;
 }
 
 .definitionCol {
-  width: 30%; /* 의미 열 너비 */
+  width: 29%; /* 의미 열 너비 */
   text-align: left;
 }
 

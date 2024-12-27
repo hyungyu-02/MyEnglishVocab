@@ -11,13 +11,6 @@
   ],
   "words": [
     {
-      "term": "occupation",
-      "definition": "직업",
-      "profileId": "1",
-      "id": "30fe",
-      "level": 1
-    },
-    {
       "id": "3e0b",
       "profileId": 1,
       "term": "occupy",
@@ -583,6 +576,209 @@
       "definition": "33",
       "profileId": "c405",
       "level": 1
+    },
+    {
+      "id": "dc8e",
+      "term": "refuse",
+      "definition": "거절하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "84da",
+      "term": "satisfactory",
+      "definition": "만족스러운",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7732",
+      "term": "be committed to",
+      "definition": "~에 전념하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "81c2",
+      "term": "dedicate",
+      "definition": "전념하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "cac0",
+      "term": "devote",
+      "definition": "~에 바치다, 쏟다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "95b3",
+      "term": "brief",
+      "definition": "짧은, 브리핑하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "term": "inquiry",
+      "definition": "연구, 질문, 문의",
+      "profileId": "1",
+      "level": 0,
+      "id": "6e72"
+    },
+    {
+      "id": "23e3",
+      "term": "emphasize",
+      "definition": "강조하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "c928",
+      "term": "advanced",
+      "definition": "진보한, 고급의",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "0795",
+      "term": "critic",
+      "definition": "비평가",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7c76",
+      "term": "exaggerate",
+      "definition": "과장하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "c831",
+      "term": "postpone",
+      "definition": "연기하다, 미루다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "9096",
+      "term": "quota",
+      "definition": "할당량",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "e8d3",
+      "term": "entrepreneur",
+      "definition": "기업가",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "6724",
+      "term": "interpret",
+      "definition": "해석하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "201b",
+      "term": "primary",
+      "definition": "첫째의, 1순위의",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7eb4",
+      "term": "primarily",
+      "definition": "주로",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "0e49",
+      "term": "regarding",
+      "definition": "에 관해서는",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "8dc9",
+      "term": "regard",
+      "definition": "~으로 여기다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "0445",
+      "term": "proofread",
+      "definition": "교정하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "a3a7",
+      "term": "antique",
+      "definition": "골동의",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7102",
+      "term": "vase",
+      "definition": "꽃병",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "54b6",
+      "term": "transit",
+      "definition": "통행, 횡단",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "b8f4",
+      "term": "alternative",
+      "definition": "대안",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "term": "enclose",
+      "definition": "애워싸다, 동봉되다",
+      "profileId": "1",
+      "level": 0,
+      "id": "cf04"
+    },
+    {
+      "id": "7429",
+      "term": "affirm",
+      "definition": "확인하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "f0a3",
+      "term": "status",
+      "definition": "지위, 신분",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "9ea0",
+      "term": "in advance",
+      "definition": "미리",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "a051",
+      "term": "benefit",
+      "definition": "혜택, 자선행사",
+      "profileId": "1",
+      "level": 0
     }
   ]
 }

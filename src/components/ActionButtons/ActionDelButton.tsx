@@ -20,7 +20,7 @@ const ActionDelButton: React.FC<ActionButtonsProps> = ({
     return (
         <button
         onClick={onEditCancel}
-        className={styles.button}
+        className={styles.cancelButton}
         type="button"
         aria-label="Cancel editing"
         >

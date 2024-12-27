@@ -5,6 +5,8 @@
   }
   
   .deleteAccountButton:hover {
-    background-color: rgb(255, 70, 70);
-    color: white;
+    /* background-color: rgb(255, 70, 70); */
+    background-color: rgb(255, 100, 100);
+    /* color: white; */
+    cursor:not-allowed;
   }

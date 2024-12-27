@@ -14,7 +14,7 @@ const DeleteAccountButton: React.FC = () => {
   };
 
   return (
-    <button onClick={handleDelete} className={styles.deleteAccountButton} aria-label="계정 삭제">
+    <button onClick={handleDelete} className={styles.deleteAccountButton} aria-label="계정 삭제" disabled>
       계정 삭제
     </button>
   );

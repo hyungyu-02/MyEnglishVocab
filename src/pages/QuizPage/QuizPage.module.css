@@ -63,3 +63,9 @@
     width: 18px;
     height: 18px;
 }
+.deleteButton{
+    background-color: rgb(255, 100, 100);
+}
+.deleteButton:hover{
+    background-color: rgb(255, 70, 70);
+}

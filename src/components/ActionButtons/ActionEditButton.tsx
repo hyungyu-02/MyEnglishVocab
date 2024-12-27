@@ -31,7 +31,7 @@ const ActionEditButton: React.FC<ActionButtonsProps> = ({
     return (
         <button
         onClick={onDeleteCancel}
-        className={styles.button}
+        className={styles.cancelButton}
         type="button"
         aria-label="Cancel delete"
         >
