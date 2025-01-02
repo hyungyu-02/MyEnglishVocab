@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Word } from '../../types/Word';
 import { useProfile } from '../../context/ProfileContext';
 import { useNavigate } from 'react-router-dom';
@@ -11,24 +11,34 @@ const QuizPage: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showDefinition, setShowDefinition] = useState(false);
   const navigate = useNavigate();
+  const isWordsLoaded = useRef(false);
 
   useEffect(() => {
     console.log('QuizPage rendered');
+    console.log(words[0], words[1], words[2]);
     if (!selectedProfile) {
       navigate('/');
       return;
     }
 
-    fetch(`http://localhost:3001/words?profileId=${selectedProfile.id}`)
+    if (!isWordsLoaded.current){
+      fetch(`http://localhost:3001/words?profileId=${selectedProfile.id}`)
       .then(res => res.json())
       .then((data: Word[]) => {
         const shuffled = shuffleArray(data);
         setWords(shuffled);
+        isWordsLoaded.current = true;
       })
       .catch(err => console.error(err));
+    }
+    return () => {
+      isWordsLoaded.current = false;
+    };
   }, [selectedProfile, navigate]);
 
   const handleDelete = async (id: string) => {
+    console.log(words[0], words[1], words[2]);
+    setShowDefinition(false);
     try{
       const response = await fetch(`http://localhost:3001/words/${id}`, { method: 'DELETE' });
       if (!response.ok) throw new Error('단어 삭제 실패');
@@ -40,15 +50,18 @@ const QuizPage: React.FC = () => {
   };
 
   const handleShowDefinition = () => {
+    console.log(words[0], words[1], words[2]);
     setShowDefinition(true);
   };
 
   const handleNext = () => {
+    console.log(words[0], words[1], words[2]);
     setShowDefinition(false);
     setCurrentIndex((prev) => prev + 1);
   };
 
   const handleMarkAsLearned = async () => {
+    console.log(words[0], words[1], words[2]);
     if (currentIndex >= words.length) return;
     const word = words[currentIndex];
 
@@ -68,7 +81,6 @@ const QuizPage: React.FC = () => {
         prev.map((w) => (w.id === word.id ? updatedWord : w))
       );
 
-      alert(`"${word.term}"의 레벨이 ${word.level + 1}로 증가했습니다.`);
     } catch (error) {
       console.error(error);
       alert('단어 레벨 업데이트 중 오류가 발생했습니다.');
@@ -80,7 +92,7 @@ const QuizPage: React.FC = () => {
   if (words.length === 0) {
     return (
       <div className={styles.container}>
-        <h2>단어를 불러오는 중...</h2>
+        <h2>Loading Words...</h2>
         <HomeButton />
       </div>
     );
@@ -103,12 +115,17 @@ const QuizPage: React.FC = () => {
       <HomeButton />
       <h4>{currentIndex + 1} / {words.length}</h4>
       <div className={styles.quizArea}>
+        <p><strong>Lv:</strong> {currentWord.level}</p>
         <p><strong>단어:</strong> {currentWord.term}</p>
         {showDefinition && (
           <>
             <p><strong>뜻:</strong> {currentWord.definition}</p>
             <button
-              onClick={handleMarkAsLearned}
+              onClick={() => {
+                if(window.confirm(`The level of "${currentWord.term}" increases to ${currentWord.level + 1}`)){
+                  handleMarkAsLearned();
+                }
+              }}
               className={styles.learnedButton}
               aria-label="외웠습니다"
             >

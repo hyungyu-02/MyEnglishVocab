@@ -15,7 +15,7 @@
       "profileId": 1,
       "term": "occupy",
       "definition": "차지하디, 점령하다",
-      "level": 0
+      "level": 1
     },
     {
       "term": "reception",
@@ -39,13 +39,6 @@
       "level": 0
     },
     {
-      "term": "transaction",
-      "profileId": 1,
-      "definition": "거래",
-      "id": "98f4",
-      "level": 1
-    },
-    {
       "id": "f5f4",
       "profileId": 1,
       "term": "composition",
@@ -57,14 +50,14 @@
       "profileId": 1,
       "term": "appliance",
       "definition": "가전기기",
-      "level": 1
+      "level": 2
     },
     {
       "id": "609a",
       "profileId": 1,
       "term": "conduct",
       "definition": "행위하다",
-      "level": 1
+      "level": 2
     },
     {
       "id": "10e3",
@@ -74,25 +67,11 @@
       "level": 0
     },
     {
-      "id": "76a7",
-      "profileId": 1,
-      "term": "evaluate",
-      "definition": "평가하다",
-      "level": 2
-    },
-    {
       "id": "c323",
       "profileId": 1,
       "term": "accumulate",
       "definition": "쌓다, 모으다",
-      "level": 1
-    },
-    {
-      "id": "7acc",
-      "profileId": 1,
-      "term": "affordable",
-      "definition": "저렴한",
-      "level": 1
+      "level": 2
     },
     {
       "id": "4d12",
@@ -120,7 +99,7 @@
       "profileId": 1,
       "term": "thorough",
       "definition": "철저하다",
-      "level": 0
+      "level": 1
     },
     {
       "id": "559b",
@@ -128,13 +107,6 @@
       "term": "adjust",
       "definition": "조절하다",
       "level": 0
-    },
-    {
-      "id": "2208",
-      "profileId": 1,
-      "term": "promissing",
-      "definition": "전망이 좋다",
-      "level": 1
     },
     {
       "id": "ea3c",
@@ -155,7 +127,7 @@
       "profileId": 1,
       "term": "accountant",
       "definition": "회계사",
-      "level": 0
+      "level": 1
     },
     {
       "id": "4313",
@@ -169,7 +141,7 @@
       "profileId": 1,
       "term": "executive",
       "definition": "경영진",
-      "level": 0
+      "level": 1
     },
     {
       "id": "4917",
@@ -183,48 +155,41 @@
       "profileId": 1,
       "term": "commence",
       "definition": "시작되다",
-      "level": 0
+      "level": 1
     },
     {
       "id": "946d",
       "profileId": 1,
       "term": "intrusion",
       "definition": "침입",
-      "level": 0
+      "level": 1
     },
     {
       "id": "0a28",
       "profileId": 1,
       "term": "instance",
       "definition": "사례",
-      "level": 0
+      "level": 1
     },
     {
       "id": "1abf",
       "profileId": 1,
       "term": "restrict",
       "definition": "제한하다",
-      "level": 0
+      "level": 1
     },
     {
       "id": "3949",
       "profileId": 1,
       "term": "administration",
       "definition": "경영진, 관리자",
-      "level": 0
+      "level": 1
     },
     {
       "id": "7bbe",
       "profileId": 1,
       "term": "ought to",
       "definition": "~해야한다",
-      "level": 0
-    },
-    {
-      "id": "79ab",
-      "profileId": 1,
-      "term": "appointment",
-      "definition": "약속",
       "level": 0
     },
     {
@@ -239,7 +204,7 @@
       "profileId": 1,
       "term": "grant",
       "definition": "승인하다",
-      "level": 0
+      "level": 2
     },
     {
       "id": "e574",
@@ -260,7 +225,7 @@
       "profileId": 1,
       "term": "confidence",
       "definition": "자신감",
-      "level": 0
+      "level": 1
     },
     {
       "id": "4b77",
@@ -295,7 +260,7 @@
       "term": "application",
       "definition": "지원서",
       "profileId": "1",
-      "level": 1
+      "level": 4
     },
     {
       "id": "efe4",
@@ -340,13 +305,6 @@
       "level": 0
     },
     {
-      "id": "5232",
-      "term": "exhibit",
-      "definition": "전시품",
-      "profileId": "1",
-      "level": 0
-    },
-    {
       "id": "5771",
       "term": "convince",
       "definition": "납득시키다, 설득하다",
@@ -358,7 +316,7 @@
       "term": "absorbed in",
       "definition": "~에 몰두하다",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "4f57",
@@ -366,13 +324,6 @@
       "definition": "자격을 주다",
       "profileId": "1",
       "level": 0
-    },
-    {
-      "id": "74cd",
-      "term": "encourage",
-      "definition": "격려하다, 권장하다",
-      "profileId": "1",
-      "level": 1
     },
     {
       "id": "e1a4",
@@ -393,42 +344,42 @@
       "term": "attorney",
       "definition": "변호사, 대리인",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "c17a",
       "term": "certain",
       "definition": "확신하는",
       "profileId": "1",
-      "level": 0
+      "level": 2
     },
     {
       "id": "69fb",
       "term": "agreement",
       "definition": "계약",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "e97d",
       "term": "interpret",
       "definition": "이해[해석]하다",
       "profileId": "1",
-      "level": 0
+      "level": 2
     },
     {
       "id": "d610",
       "term": "corporate",
       "definition": "기업의",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "fd35",
       "term": "district",
       "definition": "지구, 지역",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "384d",
@@ -449,7 +400,7 @@
       "term": "lease",
       "definition": "임대",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "4a7d",
@@ -480,25 +431,18 @@
       "level": 0
     },
     {
-      "id": "83c7",
-      "term": "assess",
-      "definition": "평가하다",
-      "profileId": "1",
-      "level": 1
-    },
-    {
       "id": "3663",
       "term": "feasibility",
       "definition": "실현가능성",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "713e",
       "term": "discrepancy",
       "definition": "차이",
       "profileId": "1",
-      "level": 0
+      "level": 2
     },
     {
       "id": "a5e3",
@@ -512,35 +456,35 @@
       "term": "allowance",
       "definition": "수당",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "49b9",
       "term": "proposition",
       "definition": "제의",
       "profileId": "1",
-      "level": 0
+      "level": 2
     },
     {
       "id": "e99c",
       "term": "involve",
       "definition": "수반하다, 관련시키다",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "229b",
       "term": "factor",
       "definition": "요인",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "2ff5",
       "term": "itinerary",
       "definition": "여행일정",
       "profileId": "1",
-      "level": 1
+      "level": 2
     },
     {
       "id": "25e1",
@@ -596,7 +540,7 @@
       "term": "be committed to",
       "definition": "~에 전념하다",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "81c2",
@@ -638,7 +582,7 @@
       "term": "advanced",
       "definition": "진보한, 고급의",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "0795",
@@ -652,14 +596,14 @@
       "term": "exaggerate",
       "definition": "과장하다",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "c831",
       "term": "postpone",
       "definition": "연기하다, 미루다",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "9096",
@@ -673,49 +617,49 @@
       "term": "entrepreneur",
       "definition": "기업가",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "6724",
       "term": "interpret",
       "definition": "해석하다",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "201b",
       "term": "primary",
       "definition": "첫째의, 1순위의",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "7eb4",
       "term": "primarily",
       "definition": "주로",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "0e49",
       "term": "regarding",
       "definition": "에 관해서는",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "8dc9",
       "term": "regard",
       "definition": "~으로 여기다",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "0445",
       "term": "proofread",
       "definition": "교정하다",
       "profileId": "1",
-      "level": 0
+      "level": 1
     },
     {
       "id": "a3a7",
@@ -732,18 +676,11 @@
       "level": 0
     },
     {
-      "id": "54b6",
-      "term": "transit",
-      "definition": "통행, 횡단",
-      "profileId": "1",
-      "level": 0
-    },
-    {
       "id": "b8f4",
       "term": "alternative",
       "definition": "대안",
       "profileId": "1",
-      "level": 0
+      "level": 2
     },
     {
       "term": "enclose",
@@ -771,12 +708,138 @@
       "term": "in advance",
       "definition": "미리",
       "profileId": "1",
-      "level": 0
+      "level": 2
     },
     {
       "id": "a051",
       "term": "benefit",
       "definition": "혜택, 자선행사",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "bc52",
+      "term": "endure",
+      "definition": "견디다",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "id": "3b35",
+      "term": "strive",
+      "definition": "노력하다",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "id": "2013",
+      "term": "address",
+      "definition": "(문제 등을) 다루다",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "id": "71ed",
+      "term": "grant",
+      "definition": "승인하다, 수여하다",
+      "profileId": "1",
+      "level": 2
+    },
+    {
+      "id": "e065",
+      "term": "redeem",
+      "definition": "현금화하다",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "term": "integrate",
+      "definition": "통합하다, 완성하다",
+      "profileId": "1",
+      "level": 0,
+      "id": "d8a6"
+    },
+    {
+      "id": "d14a",
+      "term": "embark",
+      "definition": "착수하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "e8e2",
+      "term": "approval",
+      "definition": "승인",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "id": "6145",
+      "term": "alternate",
+      "definition": "교체하다",
+      "profileId": "1",
+      "level": 2
+    },
+    {
+      "id": "a2e9",
+      "term": "designate",
+      "definition": "지정하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "ef92",
+      "term": "fulfill",
+      "definition": "이행하다, 달성하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "eb06",
+      "term": "determine",
+      "definition": "결심하다",
+      "profileId": "1",
+      "level": 2
+    },
+    {
+      "id": "708e",
+      "term": "oblige",
+      "definition": "의무적으로 ~하게 하다",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "id": "6b04",
+      "term": "nominate",
+      "definition": "지명[추천] 하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "d360",
+      "term": "eliminate",
+      "definition": "없애다, 탈락시키다",
+      "profileId": "1",
+      "level": 1
+    },
+    {
+      "id": "601b",
+      "term": "portray",
+      "definition": "그리다, 묘사하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "f96a",
+      "term": "initiate",
+      "definition": "시작하다",
+      "profileId": "1",
+      "level": 2
+    },
+    {
+      "id": "7efe",
+      "term": "persist",
+      "definition": "끈질기게 계속하다",
       "profileId": "1",
       "level": 0
     }
