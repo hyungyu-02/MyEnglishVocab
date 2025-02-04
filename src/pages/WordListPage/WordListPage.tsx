@@ -4,6 +4,7 @@ import styles from './WordListPage.module.css';
 import HomeButton from '../../components/HomeButton/HomeButton';
 import AddWordForm from '../../components/AddWordForm/AddWordForm';
 import ShowWords from '../../components/ShowWords/ShowWords';
+import ExampleModal from './ExampleModal/ExampleModal';
 import { useProfile } from '../../context/ProfileContext';
 import { useNavigate } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ const WordListPage: React.FC = () => {
   const [editingDefinition, setEditingDefinition] = useState('');
   const [deletingId, setDeletingId] = useState<string | null>(null);
   const [isSortedAsc, setIsSortedAsc] = useState<boolean>(true);
+  const [modalWord, setModalWord] = useState<Word | null>(null); // 모달에 표시할 단어
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -30,12 +32,14 @@ const WordListPage: React.FC = () => {
       .catch((err) => console.error(err));
   }, [selectedProfile, navigate]);
 
-  const handleAddWord = async (term: string, definition: string) => {
+  const handleAddWord = async (term: string, definition: string, exampleSentence: string, meaningOfExampleSentence: string) => {
     if (!selectedProfile) return;
 
     const newWord = {
       term: term.trim(),
       definition: definition.trim(),
+      exampleSentence: exampleSentence.trim(),
+      meaningOfExampleSentence: meaningOfExampleSentence.trim(),
       profileId: selectedProfile.id,
       level: 0,
     };
@@ -119,6 +123,11 @@ const WordListPage: React.FC = () => {
     }
   };
 
+  // "예문보기" 버튼 클릭 시 모달에 해당 단어 전달
+  const handleViewExample = (word: Word) => {
+    setModalWord(word);
+  };
+
   const handleSort = () => {
     const sortedWords = [...words].sort((a, b) => {
       const termA = a.term.toLowerCase();
@@ -137,7 +146,7 @@ const WordListPage: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>{selectedProfile.name}'s Word List</h2>
+      <h2 className={styles.title}>My Word List</h2>
 
       <HomeButton />
       <br />
@@ -146,8 +155,6 @@ const WordListPage: React.FC = () => {
         <AddWordForm onAddWord={handleAddWord} />
       </div>
       
-      
-
       <div className={styles.sortButtonContainer}>
         <button onClick={handleSort} className={styles.sortButton} aria-label="Sort words">
           {isSortedAsc ? 
@@ -173,8 +180,17 @@ const WordListPage: React.FC = () => {
           onEditSave={handleEditSave}
           onEditCancel={handleEditCancel}
           onDeleteCancel={handleDeleteCancel}
+          onViewExample={handleViewExample}  // 전달
         />
       </div>
+
+      {/* 모달 렌더링 */}
+      {modalWord && (
+        <ExampleModal
+          word={modalWord}
+          onClose={() => setModalWord(null)}
+        />
+      )}
     </div>
   );
 };

@@ -11,835 +11,1289 @@
   ],
   "words": [
     {
-      "id": "3e0b",
-      "profileId": 1,
-      "term": "occupy",
-      "definition": "차지하디, 점령하다",
-      "level": 1
-    },
-    {
-      "term": "reception",
-      "profileId": 1,
-      "definition": "수령",
-      "id": "6fd3",
-      "level": 1
-    },
-    {
       "id": "ce4c",
       "profileId": 1,
       "term": "instruction",
       "definition": "설명, 지시",
-      "level": 1
-    },
-    {
-      "id": "f1a8",
-      "profileId": 1,
-      "term": "distribution",
-      "definition": "분포, 분배",
-      "level": 0
-    },
-    {
-      "id": "f5f4",
-      "profileId": 1,
-      "term": "composition",
-      "definition": "구성(요소)",
-      "level": 0
-    },
-    {
-      "id": "05e3",
-      "profileId": 1,
-      "term": "appliance",
-      "definition": "가전기기",
-      "level": 2
+      "level": 4,
+      "exampleSentence": "Please follow the teacher's instruction carefully.",
+      "meaningOfExampleSentence": "선생님의 지시를 주의 깊게 따르세요."
     },
     {
       "id": "609a",
       "profileId": 1,
       "term": "conduct",
       "definition": "행위하다",
-      "level": 2
+      "level": 3,
+      "exampleSentence": "The scientist conducted the experiment to test the new theory.",
+      "meaningOfExampleSentence": "과학자는 새로운 이론을 검증하기 위해 실험을 수행했습니다."
     },
     {
       "id": "10e3",
       "profileId": 1,
       "term": "register",
       "definition": "등록하다",
-      "level": 0
-    },
-    {
-      "id": "c323",
-      "profileId": 1,
-      "term": "accumulate",
-      "definition": "쌓다, 모으다",
-      "level": 2
+      "level": 0,
+      "exampleSentence": "You must register online before the deadline.",
+      "meaningOfExampleSentence": "마감일 전에 온라인으로 등록해야 합니다."
     },
     {
       "id": "4d12",
       "profileId": 1,
       "term": "commitment",
       "definition": "약속, 책임, 헌신, 전념",
-      "level": 0
-    },
-    {
-      "id": "0833",
-      "profileId": 1,
-      "term": "refer",
-      "definition": "참조하다",
-      "level": 1
+      "level": 0,
+      "exampleSentence": "Her commitment to community service is truly inspiring.",
+      "meaningOfExampleSentence": "그녀의 지역사회 봉사에 대한 헌신은 정말 감동적입니다."
     },
     {
       "id": "b027",
       "profileId": 1,
       "term": "admire",
       "definition": "존경하다",
-      "level": 0
+      "level": 0,
+      "exampleSentence": "I really admire his dedication to his craft.",
+      "meaningOfExampleSentence": "나는 그의 일에 대한 헌신을 정말 존경합니다."
     },
     {
       "id": "f0dd",
       "profileId": 1,
       "term": "thorough",
       "definition": "철저하다",
-      "level": 1
+      "level": 4,
+      "exampleSentence": "She conducted a thorough review of the proposal before submitting it.",
+      "meaningOfExampleSentence": "그녀는 제안서를 제출하기 전에 철저하게 검토했습니다."
     },
     {
       "id": "559b",
       "profileId": 1,
       "term": "adjust",
       "definition": "조절하다",
-      "level": 0
-    },
-    {
-      "id": "ea3c",
-      "profileId": 1,
-      "term": "diligence",
-      "definition": "성실함",
-      "level": 1
+      "level": 3,
+      "exampleSentence": "You may need to adjust the brightness of your screen for comfort.",
+      "meaningOfExampleSentence": "편안함을 위해 화면 밝기를 조절해야 할 수도 있습니다."
     },
     {
       "id": "6a9c",
       "profileId": 1,
       "term": "accountable",
       "definition": "책임이 있는",
-      "level": 0
+      "level": 0,
+      "exampleSentence": "The manager is accountable for the team's performance.",
+      "meaningOfExampleSentence": "매니저는 팀의 성과에 대해 책임이 있습니다."
     },
     {
       "id": "47c2",
       "profileId": 1,
       "term": "accountant",
       "definition": "회계사",
-      "level": 1
+      "level": 2,
+      "exampleSentence": "The accountant prepared the annual financial report.",
+      "meaningOfExampleSentence": "회계사는 연간 재무 보고서를 준비했습니다."
     },
     {
       "id": "4313",
       "profileId": 1,
       "term": "property",
       "definition": "부동산",
-      "level": 0
+      "level": 3,
+      "exampleSentence": "He invested in a property in the heart of the city.",
+      "meaningOfExampleSentence": "그는 도심 한복판의 부동산에 투자했습니다."
     },
     {
       "id": "d579",
       "profileId": 1,
       "term": "executive",
       "definition": "경영진",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "The executive announced the launch of a new product line.",
+      "meaningOfExampleSentence": "경영진은 새로운 제품 라인의 출시를 발표했습니다."
     },
     {
       "id": "4917",
       "profileId": 1,
       "term": "commuting",
       "definition": "출퇴근",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "Her daily commuting takes more than an hour each way.",
+      "meaningOfExampleSentence": "그녀의 일일 출퇴근은 편도로 한 시간이 넘습니다."
     },
     {
       "id": "ab65",
       "profileId": 1,
       "term": "commence",
       "definition": "시작되다",
-      "level": 1
+      "level": 3,
+      "exampleSentence": "The ceremony will commence at exactly 9 AM.",
+      "meaningOfExampleSentence": "행사는 정확히 오전 9시에 시작됩니다."
     },
     {
       "id": "946d",
       "profileId": 1,
       "term": "intrusion",
       "definition": "침입",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "The new alarm system is designed to prevent any intrusion.",
+      "meaningOfExampleSentence": "새로운 경보 시스템은 어떤 침입도 방지하도록 설계되었습니다."
     },
     {
       "id": "0a28",
       "profileId": 1,
       "term": "instance",
       "definition": "사례",
-      "level": 1
-    },
-    {
-      "id": "1abf",
-      "profileId": 1,
-      "term": "restrict",
-      "definition": "제한하다",
-      "level": 1
+      "level": 2,
+      "exampleSentence": "For instance, many animals adapt to seasonal changes.",
+      "meaningOfExampleSentence": "예를 들어, 많은 동물들이 계절 변화에 적응합니다."
     },
     {
       "id": "3949",
       "profileId": 1,
       "term": "administration",
       "definition": "경영진, 관리자",
-      "level": 1
-    },
-    {
-      "id": "7bbe",
-      "profileId": 1,
-      "term": "ought to",
-      "definition": "~해야한다",
-      "level": 0
+      "level": 3,
+      "exampleSentence": "The new administration promised to overhaul the education system.",
+      "meaningOfExampleSentence": "새 행정부는 교육 시스템을 전면 개혁하겠다고 약속했습니다."
     },
     {
       "id": "bc6a",
       "profileId": 1,
       "term": "confidential",
       "definition": "비밀의, 은밀한",
-      "level": 0
-    },
-    {
-      "id": "a37e",
-      "profileId": 1,
-      "term": "grant",
-      "definition": "승인하다",
-      "level": 2
+      "level": 0,
+      "exampleSentence": "Please do not share this confidential information with anyone.",
+      "meaningOfExampleSentence": "이 기밀 정보를 누구와도 공유하지 마세요."
     },
     {
       "id": "e574",
       "profileId": 1,
       "term": "qualify",
       "definition": "자격을 갖추다",
-      "level": 0
-    },
-    {
-      "id": "7a19",
-      "profileId": 1,
-      "term": "apply",
-      "definition": "적용되다",
-      "level": 1
-    },
-    {
-      "id": "e5d6",
-      "profileId": 1,
-      "term": "confidence",
-      "definition": "자신감",
-      "level": 1
+      "level": 2,
+      "exampleSentence": "You must meet the criteria to qualify for the scholarship.",
+      "meaningOfExampleSentence": "장학금 자격을 얻으려면 기준을 충족해야 합니다."
     },
     {
       "id": "4b77",
+      "profileId": "1",
       "term": "proposal",
       "definition": "제안(서)",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "3540",
-      "term": "petition",
-      "definition": "청원서, 탄원서",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "She submitted a proposal for a new community project.",
+      "meaningOfExampleSentence": "그녀는 새로운 지역사회 프로젝트에 대한 제안서를 제출했습니다."
     },
     {
       "id": "8f77",
+      "profileId": "1",
       "term": "contribute to",
       "definition": "기여하다",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "Regular exercise contributes to overall well-being.",
+      "meaningOfExampleSentence": "규칙적인 운동은 전반적인 건강에 기여합니다."
     },
     {
       "id": "b440",
+      "profileId": "1",
       "term": "submission",
       "definition": "제출, 제기",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "22c9",
-      "term": "application",
-      "definition": "지원서",
-      "profileId": "1",
-      "level": 4
+      "level": 1,
+      "exampleSentence": "His submission for the contest was accepted without changes.",
+      "meaningOfExampleSentence": "그의 공모전 제출물은 수정 없이 받아들여졌습니다."
     },
     {
       "id": "efe4",
+      "profileId": "1",
       "term": "incident",
       "definition": "사건",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "term": "council",
-      "definition": "의회",
-      "profileId": "1",
-      "id": "c76c",
-      "level": 0
-    },
-    {
-      "id": "12c4",
-      "term": "patron",
-      "definition": "후원자",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "7c3c",
-      "term": "budget",
-      "definition": "예산",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "An incident occurred at the factory last night.",
+      "meaningOfExampleSentence": "어젯밤 공장에서 사건이 발생했습니다."
     },
     {
       "id": "d38f",
+      "profileId": "1",
       "term": "offer",
       "definition": "제의[제안] 하다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "3193",
-      "term": "clerk",
-      "definition": "직원, 점원",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "They offered a special discount during the summer sale.",
+      "meaningOfExampleSentence": "그들은 여름 세일 기간 동안 특별 할인을 제안했습니다."
     },
     {
       "id": "5771",
+      "profileId": "1",
       "term": "convince",
       "definition": "납득시키다, 설득하다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "b086",
-      "term": "absorbed in",
-      "definition": "~에 몰두하다",
-      "profileId": "1",
-      "level": 2
+      "level": 1,
+      "exampleSentence": "It took hours of discussion to convince him to change his decision.",
+      "meaningOfExampleSentence": "그의 결정을 바꾸도록 설득하는 데 몇 시간이 걸렸습니다."
     },
     {
       "id": "4f57",
+      "profileId": "1",
       "term": "entitle",
       "definition": "자격을 주다",
-      "profileId": "1",
-      "level": 0
+      "level": 3,
+      "exampleSentence": "This coupon entitles you to a free dessert with your meal.",
+      "meaningOfExampleSentence": "이 쿠폰은 식사와 함께 무료 디저트를 받을 자격을 부여합니다."
     },
     {
       "id": "e1a4",
+      "profileId": "1",
       "term": "revise",
       "definition": "변경[수정] 하다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "ff41",
-      "term": "accumulate",
-      "definition": "모으다, 축적하다",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "I need to revise my essay before the final submission.",
+      "meaningOfExampleSentence": "최종 제출 전에 에세이를 수정해야 합니다."
     },
     {
       "id": "3a60",
+      "profileId": "1",
       "term": "attorney",
       "definition": "변호사, 대리인",
-      "profileId": "1",
-      "level": 1
+      "level": 2,
+      "exampleSentence": "The attorney presented a strong case in court.",
+      "meaningOfExampleSentence": "변호사는 법정에서 강력한 주장을 펼쳤습니다."
     },
     {
       "id": "c17a",
+      "profileId": "1",
       "term": "certain",
       "definition": "확신하는",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "id": "69fb",
-      "term": "agreement",
-      "definition": "계약",
-      "profileId": "1",
-      "level": 2
+      "level": 5,
+      "exampleSentence": "I am absolutely certain that this solution will work.",
+      "meaningOfExampleSentence": "이 해결책이 효과적일 것이라고 나는 확신합니다."
     },
     {
       "id": "e97d",
+      "profileId": "1",
       "term": "interpret",
       "definition": "이해[해석]하다",
-      "profileId": "1",
-      "level": 2
+      "level": 4,
+      "exampleSentence": "Can you help me interpret this complex contract?",
+      "meaningOfExampleSentence": "이 복잡한 계약서를 해석하는 데 도움을 줄 수 있나요?"
     },
     {
       "id": "d610",
+      "profileId": "1",
       "term": "corporate",
       "definition": "기업의",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "She works in the corporate strategy department of a multinational firm.",
+      "meaningOfExampleSentence": "그녀는 다국적 기업의 기업 전략 부서에서 근무합니다."
     },
     {
       "id": "fd35",
+      "profileId": "1",
       "term": "district",
       "definition": "지구, 지역",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "They live in a historic district known for its charming streets.",
+      "meaningOfExampleSentence": "그들은 매력적인 거리가 있는 역사적인 지역에 삽니다."
     },
     {
       "id": "384d",
+      "profileId": "1",
       "term": "discretion",
       "definition": "재량, 신중함",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "The decision was left to the manager's discretion.",
+      "meaningOfExampleSentence": "결정은 매니저의 재량에 맡겨졌습니다."
     },
     {
       "id": "e248",
+      "profileId": "1",
       "term": "retention",
       "definition": "유지, 보유",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "Employee retention is a key factor in our company’s success.",
+      "meaningOfExampleSentence": "직원 유지는 우리 회사 성공의 핵심 요인입니다."
     },
     {
       "id": "7de1",
+      "profileId": "1",
       "term": "lease",
       "definition": "임대",
-      "profileId": "1",
-      "level": 2
+      "level": 4,
+      "exampleSentence": "We signed a one-year lease for the new apartment.",
+      "meaningOfExampleSentence": "우리는 새 아파트에 대해 1년 임대 계약을 체결했습니다."
     },
     {
       "id": "4a7d",
+      "profileId": "1",
       "term": "operation",
       "definition": "영업, 사업",
-      "profileId": "1",
-      "level": 0
+      "level": 0,
+      "exampleSentence": "The smooth operation of the machine is essential for production.",
+      "meaningOfExampleSentence": "기계가 원활하게 작동하는 것은 생산에 필수적입니다."
     },
     {
       "id": "3852",
+      "profileId": "1",
       "term": "operate",
       "definition": "작동되다",
-      "profileId": "1",
-      "level": 1
+      "level": 3,
+      "exampleSentence": "This device can operate on both AC and DC power.",
+      "meaningOfExampleSentence": "이 장치는 교류와 직류 전원 모두로 작동할 수 있습니다."
     },
     {
       "id": "df03",
+      "profileId": "1",
       "term": "presence",
       "definition": "인지도",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "Her calming presence made everyone feel at ease.",
+      "meaningOfExampleSentence": "그녀의 차분한 존재감은 모두에게 안도감을 주었습니다."
     },
     {
       "id": "3a77",
+      "profileId": "1",
       "term": "indicate",
       "definition": "나타내다, 내비치다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "3663",
-      "term": "feasibility",
-      "definition": "실현가능성",
-      "profileId": "1",
-      "level": 2
+      "level": 2,
+      "exampleSentence": "The rising numbers indicate a growing trend in the market.",
+      "meaningOfExampleSentence": "증가하는 수치는 시장에서의 성장 추세를 나타냅니다."
     },
     {
       "id": "713e",
+      "profileId": "1",
       "term": "discrepancy",
       "definition": "차이",
-      "profileId": "1",
-      "level": 2
+      "level": 5,
+      "exampleSentence": "There is a discrepancy between the two sets of data.",
+      "meaningOfExampleSentence": "두 데이터 세트 사이에 차이가 있습니다."
     },
     {
       "id": "a5e3",
+      "profileId": "1",
       "term": "restraint",
       "definition": "규제",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "ac6f",
-      "term": "allowance",
-      "definition": "수당",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "id": "49b9",
-      "term": "proposition",
-      "definition": "제의",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "id": "e99c",
-      "term": "involve",
-      "definition": "수반하다, 관련시키다",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "id": "229b",
-      "term": "factor",
-      "definition": "요인",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "id": "2ff5",
-      "term": "itinerary",
-      "definition": "여행일정",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "id": "25e1",
-      "term": "occupy",
-      "definition": "차지[점령] 하다",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "He showed remarkable restraint despite the provocation.",
+      "meaningOfExampleSentence": "그는 도발에도 불구하고 놀라운 절제를 보였습니다."
     },
     {
       "id": "cf9a",
+      "profileId": "1",
       "term": "admission",
       "definition": "가입, 인정, 입장료",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "1c21",
-      "term": "1",
-      "definition": "11",
-      "profileId": "c405",
-      "level": 2
-    },
-    {
-      "id": "338e",
-      "term": "2",
-      "definition": "22",
-      "profileId": "c405",
-      "level": 1
-    },
-    {
-      "id": "4510",
-      "term": "3",
-      "definition": "33",
-      "profileId": "c405",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "Admission to the art gallery is free on weekends.",
+      "meaningOfExampleSentence": "미술관 입장은 주말에 무료입니다."
     },
     {
       "id": "dc8e",
+      "profileId": "1",
       "term": "refuse",
       "definition": "거절하다",
-      "profileId": "1",
-      "level": 0
+      "level": 1,
+      "exampleSentence": "She refused the offer because it didn't meet her expectations.",
+      "meaningOfExampleSentence": "그녀는 제안이 기대에 미치지 못해 거절했습니다."
     },
     {
       "id": "84da",
+      "profileId": "1",
       "term": "satisfactory",
       "definition": "만족스러운",
-      "profileId": "1",
-      "level": 0
+      "level": 3,
+      "exampleSentence": "The service at the restaurant was satisfactory.",
+      "meaningOfExampleSentence": "그 레스토랑의 서비스는 만족스러웠습니다."
     },
     {
       "id": "7732",
+      "profileId": "1",
       "term": "be committed to",
       "definition": "~에 전념하다",
-      "profileId": "1",
-      "level": 1
+      "level": 2,
+      "exampleSentence": "They are committed to reducing environmental waste.",
+      "meaningOfExampleSentence": "그들은 환경 폐기물 감소에 전념하고 있습니다."
     },
     {
       "id": "81c2",
+      "profileId": "1",
       "term": "dedicate",
       "definition": "전념하다",
-      "profileId": "1",
-      "level": 0
+      "level": 0,
+      "exampleSentence": "He dedicated his life to advancing medical research.",
+      "meaningOfExampleSentence": "그는 의학 연구 발전에 평생을 바쳤습니다."
     },
     {
       "id": "cac0",
+      "profileId": "1",
       "term": "devote",
       "definition": "~에 바치다, 쏟다",
-      "profileId": "1",
-      "level": 0
+      "level": 0,
+      "exampleSentence": "She devotes several hours each day to studying.",
+      "meaningOfExampleSentence": "그녀는 매일 몇 시간을 공부에 할애합니다."
     },
     {
-      "id": "95b3",
-      "term": "brief",
-      "definition": "짧은, 브리핑하다",
+      "id": "6e72",
       "profileId": "1",
-      "level": 0
-    },
-    {
       "term": "inquiry",
       "definition": "연구, 질문, 문의",
-      "profileId": "1",
       "level": 0,
-      "id": "6e72"
+      "exampleSentence": "The customer made an inquiry about the warranty period.",
+      "meaningOfExampleSentence": "고객은 보증 기간에 대해 문의했습니다."
     },
     {
       "id": "23e3",
+      "profileId": "1",
       "term": "emphasize",
       "definition": "강조하다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "c928",
-      "term": "advanced",
-      "definition": "진보한, 고급의",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "0795",
-      "term": "critic",
-      "definition": "비평가",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "7c76",
-      "term": "exaggerate",
-      "definition": "과장하다",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "c831",
-      "term": "postpone",
-      "definition": "연기하다, 미루다",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "9096",
-      "term": "quota",
-      "definition": "할당량",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "e8d3",
-      "term": "entrepreneur",
-      "definition": "기업가",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "6724",
-      "term": "interpret",
-      "definition": "해석하다",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "201b",
-      "term": "primary",
-      "definition": "첫째의, 1순위의",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "7eb4",
-      "term": "primarily",
-      "definition": "주로",
-      "profileId": "1",
-      "level": 1
+      "level": 0,
+      "exampleSentence": "The teacher emphasized the importance of daily practice.",
+      "meaningOfExampleSentence": "선생님은 매일 연습의 중요성을 강조했습니다."
     },
     {
       "id": "0e49",
+      "profileId": "1",
       "term": "regarding",
       "definition": "에 관해서는",
-      "profileId": "1",
-      "level": 1
+      "level": 3,
+      "exampleSentence": "We received an email regarding the upcoming event.",
+      "meaningOfExampleSentence": "다가오는 행사에 관해 이메일을 받았습니다."
     },
     {
       "id": "8dc9",
+      "profileId": "1",
       "term": "regard",
       "definition": "~으로 여기다",
-      "profileId": "1",
-      "level": 1
+      "level": 2,
+      "exampleSentence": "He is held in high regard by his peers.",
+      "meaningOfExampleSentence": "그는 동료들 사이에서 높이 평가받고 있습니다."
     },
     {
       "id": "0445",
+      "profileId": "1",
       "term": "proofread",
       "definition": "교정하다",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "a3a7",
-      "term": "antique",
-      "definition": "골동의",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "7102",
-      "term": "vase",
-      "definition": "꽃병",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "b8f4",
-      "term": "alternative",
-      "definition": "대안",
-      "profileId": "1",
-      "level": 2
-    },
-    {
-      "term": "enclose",
-      "definition": "애워싸다, 동봉되다",
-      "profileId": "1",
-      "level": 0,
-      "id": "cf04"
+      "level": 1,
+      "exampleSentence": "Please proofread the document before sending it out.",
+      "meaningOfExampleSentence": "문서를 발송하기 전에 교정해 주세요."
     },
     {
       "id": "7429",
+      "profileId": "1",
       "term": "affirm",
       "definition": "확인하다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "f0a3",
-      "term": "status",
-      "definition": "지위, 신분",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "9ea0",
-      "term": "in advance",
-      "definition": "미리",
-      "profileId": "1",
-      "level": 2
+      "level": 0,
+      "exampleSentence": "She affirmed her support for the new policy during the meeting.",
+      "meaningOfExampleSentence": "그녀는 회의 중에 새로운 정책에 대한 지지를 확인했습니다."
     },
     {
       "id": "a051",
+      "profileId": "1",
       "term": "benefit",
       "definition": "혜택, 자선행사",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "bc52",
-      "term": "endure",
-      "definition": "견디다",
-      "profileId": "1",
-      "level": 1
+      "level": 0,
+      "exampleSentence": "Regular exercise provides numerous health benefits.",
+      "meaningOfExampleSentence": "규칙적인 운동은 수많은 건강상의 이점을 제공합니다."
     },
     {
       "id": "3b35",
+      "profileId": "1",
       "term": "strive",
       "definition": "노력하다",
-      "profileId": "1",
-      "level": 1
+      "level": 3,
+      "exampleSentence": "We strive to exceed our customers' expectations every day.",
+      "meaningOfExampleSentence": "우리는 매일 고객의 기대를 뛰어넘기 위해 노력합니다."
     },
     {
       "id": "2013",
+      "profileId": "1",
       "term": "address",
       "definition": "(문제 등을) 다루다",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "The mayor will address the crowd at the rally this evening.",
+      "meaningOfExampleSentence": "시장은 오늘 저녁 집회에서 군중에게 연설할 것입니다."
     },
     {
       "id": "71ed",
-      "term": "grant",
-      "definition": "승인하다, 수여하다",
       "profileId": "1",
-      "level": 2
+      "term": "grant",
+      "definition": "승인하다, 수여하다, 보조금",
+      "level": 3,
+      "exampleSentence": "The foundation granted a generous sum for the research project.",
+      "meaningOfExampleSentence": "재단은 연구 프로젝트를 위해 후한 금액의 보조금을 지급했습니다."
     },
     {
       "id": "e065",
+      "profileId": "1",
       "term": "redeem",
       "definition": "현금화하다",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "You can redeem your reward points for a discount on your next purchase.",
+      "meaningOfExampleSentence": "다음 구매 시 할인받기 위해 보상 포인트를 현금화할 수 있습니다."
     },
     {
+      "id": "d8a6",
+      "profileId": "1",
       "term": "integrate",
       "definition": "통합하다, 완성하다",
-      "profileId": "1",
       "level": 0,
-      "id": "d8a6"
+      "exampleSentence": "The company plans to integrate the new software into its system.",
+      "meaningOfExampleSentence": "회사는 자사 시스템에 새로운 소프트웨어를 통합할 계획입니다."
     },
     {
       "id": "d14a",
+      "profileId": "1",
       "term": "embark",
       "definition": "착수하다",
-      "profileId": "1",
-      "level": 0
+      "level": 1,
+      "exampleSentence": "They embarked on a journey to explore the ancient ruins.",
+      "meaningOfExampleSentence": "그들은 고대 유적지를 탐험하기 위해 여정을 시작했습니다."
     },
     {
       "id": "e8e2",
+      "profileId": "1",
       "term": "approval",
       "definition": "승인",
-      "profileId": "1",
-      "level": 1
-    },
-    {
-      "id": "6145",
-      "term": "alternate",
-      "definition": "교체하다",
-      "profileId": "1",
-      "level": 2
+      "level": 3,
+      "exampleSentence": "The new project is pending approval from the board of directors.",
+      "meaningOfExampleSentence": "새 프로젝트는 이사회 승인을 기다리고 있습니다."
     },
     {
       "id": "a2e9",
+      "profileId": "1",
       "term": "designate",
       "definition": "지정하다",
-      "profileId": "1",
-      "level": 0
+      "level": 2,
+      "exampleSentence": "The area was designated as a national park to protect its wildlife.",
+      "meaningOfExampleSentence": "해당 지역은 야생동물을 보호하기 위해 국립공원으로 지정되었습니다."
     },
     {
       "id": "ef92",
+      "profileId": "1",
       "term": "fulfill",
       "definition": "이행하다, 달성하다",
-      "profileId": "1",
-      "level": 0
-    },
-    {
-      "id": "eb06",
-      "term": "determine",
-      "definition": "결심하다",
-      "profileId": "1",
-      "level": 2
+      "level": 1,
+      "exampleSentence": "He worked tirelessly to fulfill the promises he made.",
+      "meaningOfExampleSentence": "그는 자신이 한 약속을 이행하기 위해 밤낮으로 노력했습니다."
     },
     {
       "id": "708e",
+      "profileId": "1",
       "term": "oblige",
       "definition": "의무적으로 ~하게 하다",
-      "profileId": "1",
-      "level": 1
+      "level": 1,
+      "exampleSentence": "The company obliged the customer's request by providing a replacement.",
+      "meaningOfExampleSentence": "회사는 고객의 요청에 따라 교환품을 제공했습니다."
     },
     {
       "id": "6b04",
+      "profileId": "1",
       "term": "nominate",
       "definition": "지명[추천] 하다",
-      "profileId": "1",
-      "level": 0
+      "level": 0,
+      "exampleSentence": "She was nominated for the best actress award at the ceremony.",
+      "meaningOfExampleSentence": "그녀는 시상식에서 최고의 여배우상 후보로 지명되었습니다."
     },
     {
       "id": "d360",
+      "profileId": "1",
       "term": "eliminate",
       "definition": "없애다, 탈락시키다",
-      "profileId": "1",
-      "level": 1
+      "level": 3,
+      "exampleSentence": "The company aims to eliminate all inefficiencies in its production process.",
+      "meaningOfExampleSentence": "회사는 생산 과정의 모든 비효율을 없애는 것을 목표로 합니다."
     },
     {
       "id": "601b",
+      "profileId": "1",
       "term": "portray",
       "definition": "그리다, 묘사하다",
+      "level": 0,
+      "exampleSentence": "The actor portrayed the historical figure with great accuracy.",
+      "meaningOfExampleSentence": "그 배우는 역사적 인물을 매우 정확하게 묘사했습니다."
+    },
+    {
+      "id": "7efe",
+      "profileId": "1",
+      "term": "persist",
+      "definition": "끈질기게 계속하다",
+      "level": 0,
+      "exampleSentence": "Despite many setbacks, she persisted in her efforts to learn a new language.",
+      "meaningOfExampleSentence": "수많은 좌절에도 불구하고, 그녀는 새로운 언어를 배우려는 노력을 계속했습니다."
+    },
+    {
+      "id": "eb4f",
+      "profileId": "1",
+      "term": "preference",
+      "definition": "선호도",
+      "level": 1,
+      "exampleSentence": "He expressed a clear preference for natural lighting in the office.",
+      "meaningOfExampleSentence": "그는 사무실에서 자연광을 선호한다고 분명히 밝혔습니다."
+    },
+    {
+      "id": "bc6e",
+      "profileId": "1",
+      "term": "reclaim",
+      "definition": "되찾다",
+      "level": 0,
+      "exampleSentence": "The company reclaimed defective products from the market.",
+      "meaningOfExampleSentence": "회사는 결함 있는 제품을 시장에서 회수했습니다."
+    },
+    {
+      "id": "db27",
+      "profileId": "1",
+      "term": "depart",
+      "definition": "출발하다, 떠나다",
+      "level": 0,
+      "exampleSentence": "The train will depart at 6:00 AM sharp.",
+      "meaningOfExampleSentence": "기차는 오전 6시에 정확히 출발합니다."
+    },
+    {
+      "id": "b2b1",
+      "profileId": "1",
+      "term": "promptly",
+      "definition": "지체없이, 정확히",
+      "level": 0,
+      "exampleSentence": "She replied promptly to the urgent email.",
+      "meaningOfExampleSentence": "그녀는 긴급 이메일에 즉시 회신했습니다."
+    },
+    {
+      "id": "ebe9",
+      "profileId": "1",
+      "term": "consent",
+      "definition": "동의하다",
+      "level": 1,
+      "exampleSentence": "He gave his consent after understanding all the risks.",
+      "meaningOfExampleSentence": "그는 모든 위험을 이해한 후 동의했습니다."
+    },
+    {
+      "id": "de2a",
+      "profileId": "1",
+      "term": "moderate",
+      "definition": "적당한",
+      "level": 0,
+      "exampleSentence": "The weather today is moderate and comfortable.",
+      "meaningOfExampleSentence": "오늘 날씨는 적당하고 쾌적합니다."
+    },
+    {
+      "id": "9103",
+      "profileId": "1",
+      "term": "tolerate",
+      "definition": "용인하다, 견디다",
+      "level": 0,
+      "exampleSentence": "I cannot tolerate excessive noise while I work.",
+      "meaningOfExampleSentence": "나는 일하는 동안 지나친 소음을 견딜 수 없습니다."
+    },
+    {
+      "id": "010c",
+      "profileId": "1",
+      "term": "withdraw",
+      "definition": "인출하다",
+      "level": 0,
+      "exampleSentence": "He decided to withdraw his application after reconsidering his options.",
+      "meaningOfExampleSentence": "그는 선택지를 재고한 후 지원서를 철회하기로 결정했습니다."
+    },
+    {
+      "id": "ae2b",
+      "profileId": "1",
+      "term": "proceed",
+      "definition": "가다, 진행하다",
+      "level": 0,
+      "exampleSentence": "After the introduction, the seminar will proceed as scheduled.",
+      "meaningOfExampleSentence": "소개 후 세미나는 예정대로 진행됩니다."
+    },
+    {
+      "id": "5ffb",
+      "profileId": "1",
+      "term": "immigration",
+      "definition": "입국, 이주",
+      "level": 0,
+      "exampleSentence": "Immigration policies have become stricter in recent years.",
+      "meaningOfExampleSentence": "최근 몇 년 동안 이민 정책이 더욱 엄격해졌습니다."
+    },
+    {
+      "id": "aa5f",
+      "profileId": "1",
+      "term": "reveal",
+      "definition": "알리다, 밝히다",
+      "level": 1,
+      "exampleSentence": "The magician refused to reveal the secret behind his trick.",
+      "meaningOfExampleSentence": "마술사는 자신의 마술 비밀을 밝히기를 거부했습니다."
+    },
+    {
+      "id": "0ea3",
+      "profileId": "1",
+      "term": "subject to",
+      "definition": "~의 대상이다",
+      "level": 0,
+      "exampleSentence": "The discount offer is subject to manager approval.",
+      "meaningOfExampleSentence": "할인 제안은 매니저의 승인을 조건으로 합니다."
+    },
+    {
+      "id": "b76d",
+      "profileId": "1",
+      "term": "compensate",
+      "definition": "보상하다",
+      "level": 0,
+      "exampleSentence": "The company will compensate customers for any defective items.",
+      "meaningOfExampleSentence": "회사는 결함 있는 제품에 대해 고객에게 보상할 것입니다."
+    },
+    {
+      "id": "2486",
+      "profileId": "1",
+      "term": "substitute",
+      "definition": "대신하다",
+      "level": 0,
+      "exampleSentence": "You can substitute honey for sugar in this recipe.",
+      "meaningOfExampleSentence": "이 레시피에서는 설탕 대신 꿀을 사용할 수 있습니다."
+    },
+    {
+      "id": "afdd",
+      "profileId": "1",
+      "term": "adopt",
+      "definition": "채택하다",
+      "level": 0,
+      "exampleSentence": "Many companies adopt new technologies to stay competitive.",
+      "meaningOfExampleSentence": "많은 회사들이 경쟁력을 유지하기 위해 새로운 기술을 채택합니다."
+    },
+    {
+      "id": "c37a",
+      "profileId": "1",
+      "term": "deviate",
+      "definition": "벗어나다, 일탈하다",
+      "level": 0,
+      "exampleSentence": "Please do not deviate from the planned route during the hike.",
+      "meaningOfExampleSentence": "하이킹 중에는 계획된 경로에서 벗어나지 마세요."
+    },
+    {
+      "id": "3444",
+      "profileId": "1",
+      "term": "tardiness",
+      "definition": "지각, 지체",
+      "level": 0,
+      "exampleSentence": "Tardiness is not tolerated in our organization.",
+      "meaningOfExampleSentence": "우리 조직에서는 지각이 용납되지 않습니다."
+    },
+    {
+      "id": "ef77",
+      "profileId": "1",
+      "term": "enroll",
+      "definition": "등록시키다",
+      "level": 0,
+      "exampleSentence": "She decided to enroll in an advanced programming course.",
+      "meaningOfExampleSentence": "그녀는 고급 프로그래밍 과정에 등록하기로 결정했습니다."
+    },
+    {
+      "id": "336b",
+      "profileId": "1",
+      "term": "payroll",
+      "definition": "급여",
+      "level": 1,
+      "exampleSentence": "The payroll department processes salaries on the last business day of each month.",
+      "meaningOfExampleSentence": "급여 부서는 매월 마지막 영업일에 급여를 처리합니다."
+    },
+    {
+      "id": "2e1a",
+      "profileId": "1",
+      "term": "urgent",
+      "definition": "긴급한",
+      "level": 0,
+      "exampleSentence": "There is an urgent need for volunteers after the disaster.",
+      "meaningOfExampleSentence": "재해 이후 긴급하게 자원봉사자가 필요합니다."
+    },
+    {
+      "id": "01c5",
+      "profileId": "1",
+      "term": "considerable",
+      "definition": "상당한, 중요한",
+      "level": 1,
+      "exampleSentence": "He made a considerable contribution to the charity event.",
+      "meaningOfExampleSentence": "그는 자선 행사에 상당한 기여를 했습니다."
+    },
+    {
+      "id": "fa3d",
+      "profileId": "1",
+      "term": "considerate",
+      "definition": "사려깊은",
+      "level": 0,
+      "exampleSentence": "It was very considerate of you to offer help during the move.",
+      "meaningOfExampleSentence": "이사하는 동안 도움을 주신 것은 정말 사려깊은 일이었습니다."
+    },
+    {
+      "id": "2684",
+      "profileId": "1",
+      "term": "persuade",
+      "definition": "설득하다",
+      "level": 0,
+      "exampleSentence": "I tried to persuade him to join our project with logical arguments.",
+      "meaningOfExampleSentence": "나는 논리적인 주장을 통해 그를 우리 프로젝트에 합류하도록 설득하려고 했습니다."
+    },
+    {
+      "id": "02d5",
+      "profileId": "1",
+      "term": "persuaded",
+      "definition": "확신하고있는",
+      "level": 0,
+      "exampleSentence": "After a long discussion, she was finally persuaded to change her mind.",
+      "meaningOfExampleSentence": "오랜 논의 끝에 그녀는 결국 마음을 바꾸게 되었습니다."
+    },
+    {
+      "id": "814f",
+      "profileId": "1",
+      "term": "proficient",
+      "definition": "능숙한",
+      "level": 0,
+      "exampleSentence": "He is proficient in both English and Spanish.",
+      "meaningOfExampleSentence": "그는 영어와 스페인어 모두에 능숙합니다."
+    },
+    {
+      "id": "1316",
+      "profileId": "1",
+      "term": "prospective",
+      "definition": "장래의",
+      "level": 0,
+      "exampleSentence": "The company held a meeting with several prospective clients.",
+      "meaningOfExampleSentence": "회사는 여러 잠재 고객과의 회의를 개최했습니다."
+    },
+    {
+      "id": "f3bc",
+      "profileId": "1",
+      "term": "prosperous",
+      "definition": "번영하는",
+      "level": 0,
+      "exampleSentence": "They built a prosperous business from humble beginnings.",
+      "meaningOfExampleSentence": "그들은 초라한 시작에서 번영하는 사업을 일구었습니다."
+    },
+    {
+      "id": "ec49",
+      "profileId": "1",
+      "term": "reliant",
+      "definition": "의지하는",
+      "level": 0,
+      "exampleSentence": "The success of the project is reliant on effective teamwork.",
+      "meaningOfExampleSentence": "프로젝트의 성공은 효과적인 팀워크에 의존합니다."
+    },
+    {
+      "id": "daab",
+      "profileId": "1",
+      "term": "respective",
+      "definition": "각자의",
+      "level": 0,
+      "exampleSentence": "The students returned to their respective classrooms after lunch.",
+      "meaningOfExampleSentence": "학생들은 점심 후 각자의 교실로 돌아갔습니다."
+    },
+    {
+      "id": "153a",
+      "profileId": "1",
+      "term": "seasoned",
+      "definition": "경험이 많은",
+      "level": 0,
+      "exampleSentence": "The seasoned chef prepared a delicious gourmet meal.",
+      "meaningOfExampleSentence": "경험 많은 요리사가 맛있는 고급 요리를 준비했습니다."
+    },
+    {
+      "id": "76b4",
+      "profileId": "1",
+      "term": "successive",
+      "definition": "연속의",
+      "level": 1,
+      "exampleSentence": "The company reported successive years of profit growth.",
+      "meaningOfExampleSentence": "회사는 연속된 해 동안 이익이 증가했다고 보고했습니다."
+    },
+    {
+      "id": "6f34",
+      "profileId": "1",
+      "term": "eligible",
+      "definition": "자격이 있는",
+      "level": 0,
+      "exampleSentence": "Only employees with over a year of service are eligible for promotion.",
+      "meaningOfExampleSentence": "1년 이상 근무한 직원만 승진 자격이 있습니다."
+    },
+    {
+      "id": "c27a",
+      "profileId": "1",
+      "term": "durable",
+      "definition": "내구성이 있는",
+      "level": 0,
+      "exampleSentence": "This material is known for its durable quality and longevity.",
+      "meaningOfExampleSentence": "이 소재는 내구성이 뛰어나고 오래 지속되는 것으로 알려져 있습니다."
+    },
+    {
+      "id": "8dc0",
+      "profileId": "1",
+      "term": "hesitant",
+      "definition": "주저하는",
+      "level": 0,
+      "exampleSentence": "He was hesitant to try the exotic dish at first.",
+      "meaningOfExampleSentence": "그는 처음에 그 이국적인 요리를 시도하는 데 주저했습니다."
+    },
+    {
+      "id": "363c",
+      "profileId": "1",
+      "term": "revision",
+      "definition": "수정, 검토",
+      "level": 0,
+      "exampleSentence": "The report is undergoing revision to correct some errors.",
+      "meaningOfExampleSentence": "보고서는 몇 가지 오류를 수정하기 위해 재검토 중입니다."
+    },
+    {
+      "id": "fc4b",
+      "profileId": "1",
+      "term": "institute",
+      "definition": "기관, 도입하다",
+      "level": 0,
+      "exampleSentence": "The university will institute a new scholarship program next semester.",
+      "meaningOfExampleSentence": "대학은 다음 학기에 새로운 장학 프로그램을 도입할 것입니다."
+    },
+    {
+      "id": "a9a2",
+      "profileId": "1",
+      "term": "generously",
+      "definition": "후하게",
+      "level": 1,
+      "exampleSentence": "The donor contributed generously to the charity fund.",
+      "meaningOfExampleSentence": "기부자는 자선 기금에 후하게 기여했습니다."
+    },
+    {
+      "id": "6615",
+      "profileId": "1",
+      "term": "resume",
+      "definition": "요약, 이력서",
+      "level": 1,
+      "exampleSentence": "Before applying, please update your resume with recent experiences.",
+      "meaningOfExampleSentence": "지원하기 전에 최근 경험으로 이력서를 업데이트해 주세요."
+    },
+    {
+      "id": "5fc5",
+      "profileId": "1",
+      "term": "transition",
+      "definition": "전환, 이행",
+      "level": 1,
+      "exampleSentence": "The company is in transition as it adapts to new market conditions.",
+      "meaningOfExampleSentence": "회사는 새로운 시장 상황에 적응하면서 전환 과정을 겪고 있습니다."
+    },
+    {
+      "id": "9fb6",
+      "profileId": "1",
+      "term": "fall short of",
+      "definition": "못 미치다",
+      "level": 0,
+      "exampleSentence": "The product's performance fell short of consumer expectations.",
+      "meaningOfExampleSentence": "그 제품의 성능은 소비자 기대에 미치지 못했습니다."
+    },
+    {
+      "id": "8a99",
+      "profileId": "1",
+      "term": "dormitory",
+      "definition": "기숙사",
+      "level": 1,
+      "exampleSentence": "The university dormitory offers comfortable living for students.",
+      "meaningOfExampleSentence": "대학 기숙사는 학생들에게 쾌적한 생활 환경을 제공합니다."
+    },
+    {
+      "id": "00ad",
+      "profileId": "1",
+      "term": "comply with",
+      "definition": "따르다",
+      "level": 0,
+      "exampleSentence": "All employees must comply with the company’s safety regulations.",
+      "meaningOfExampleSentence": "모든 직원은 회사의 안전 규정을 따라야 합니다."
+    },
+    {
+      "id": "ef44",
+      "profileId": "1",
+      "term": "federal",
+      "definition": "연방정부의",
+      "level": 1,
+      "exampleSentence": "Federal agencies are working together to address the crisis.",
+      "meaningOfExampleSentence": "연방 기관들은 위기를 해결하기 위해 협력하고 있습니다."
+    },
+    {
+      "id": "22fa",
+      "profileId": "1",
+      "term": "commerce",
+      "definition": "무역, 상업",
+      "level": 0,
+      "exampleSentence": "International commerce has grown significantly over the past decade.",
+      "meaningOfExampleSentence": "지난 10년 동안 국제 무역은 크게 성장했습니다."
+    },
+    {
+      "id": "e9c6",
+      "profileId": "1",
+      "term": "fortify",
+      "definition": "요새화하다",
+      "level": 0,
+      "exampleSentence": "The government plans to fortify coastal defenses against storms.",
+      "meaningOfExampleSentence": "정부는 폭풍에 대비해 해안 방어를 요새화할 계획입니다."
+    },
+    {
+      "id": "6369",
+      "profileId": "1",
+      "term": "execute",
+      "definition": "실행하다",
+      "level": 0,
+      "exampleSentence": "The software is designed to execute complex commands quickly.",
+      "meaningOfExampleSentence": "이 소프트웨어는 복잡한 명령어를 빠르게 실행하도록 설계되었습니다."
+    },
+    {
+      "id": "460e",
+      "profileId": "1",
+      "term": "generate",
+      "definition": "발생시키다",
+      "level": 0,
+      "exampleSentence": "This engine can generate enough power for the entire building.",
+      "meaningOfExampleSentence": "이 엔진은 건물 전체에 충분한 전력을 발생시킬 수 있습니다."
+    },
+    {
+      "id": "37ed",
+      "profileId": "1",
+      "term": "roadwork",
+      "definition": "도로공사",
+      "level": 0,
+      "exampleSentence": "Roadwork is scheduled to begin early next week on Main Street.",
+      "meaningOfExampleSentence": "메인 스트리트에서 도로공사가 다음 주 초에 시작될 예정입니다."
+    },
+    {
+      "id": "a026",
+      "profileId": "1",
+      "term": "expend",
+      "definition": "(시간, 노력) 소비하다",
+      "level": 0,
+      "exampleSentence": "She did not want to expend too much energy on trivial matters.",
+      "meaningOfExampleSentence": "그녀는 사소한 일에 너무 많은 에너지를 소비하고 싶지 않았습니다."
+    },
+    {
+      "id": "940f",
+      "profileId": "1",
+      "term": "affiliate",
+      "definition": "제휴하다",
+      "level": 0,
+      "exampleSentence": "The company decided to affiliate with a leading tech firm.",
+      "meaningOfExampleSentence": "그 회사는 선도적인 기술 회사와 제휴하기로 결정했습니다."
+    },
+    {
+      "id": "a708",
+      "profileId": "1",
+      "term": "divert",
+      "definition": "우회시키다",
+      "level": 0,
+      "exampleSentence": "The traffic was diverted to a different route due to road construction.",
+      "meaningOfExampleSentence": "도로 공사로 인해 교통이 다른 경로로 우회되었습니다."
+    },
+    {
+      "id": "083e",
+      "profileId": "1",
+      "term": "corrupt",
+      "definition": "부패시키다",
+      "level": 0,
+      "exampleSentence": "Power can sometimes corrupt even the most honest individuals.",
+      "meaningOfExampleSentence": "권력은 때때로 가장 정직한 사람들조차도 부패시킬 수 있습니다."
+    },
+    {
+      "id": "e037",
+      "profileId": "1",
+      "term": "disrupt",
+      "definition": "방해하다",
+      "level": 0,
+      "exampleSentence": "Unexpected technical issues disrupted the live broadcast.",
+      "meaningOfExampleSentence": "예상치 못한 기술 문제로 생중계가 방해받았습니다."
+    },
+    {
+      "id": "ccaf",
+      "profileId": "1",
+      "term": "omit",
+      "definition": "생략하다",
+      "level": 0,
+      "exampleSentence": "Please do not omit any important details in your report.",
+      "meaningOfExampleSentence": "보고서에서 중요한 세부 사항을 생략하지 마세요."
+    },
+    {
+      "id": "a108",
+      "profileId": "1",
+      "term": "cater",
+      "definition": "음식을 공급하다",
+      "level": 0,
+      "exampleSentence": "The restaurant can cater to large parties with ease.",
+      "meaningOfExampleSentence": "그 레스토랑은 대규모 모임의 음식을 원활하게 공급할 수 있습니다."
+    },
+    {
+      "id": "fc9f",
+      "profileId": "1",
+      "term": "afford",
+      "definition": "할 여유가 있다",
+      "level": 0,
+      "exampleSentence": "After saving for years, they can finally afford their dream home.",
+      "meaningOfExampleSentence": "수년간 저축한 후, 그들은 마침내 꿈에 그리던 집을 살 여유가 생겼습니다."
+    },
+    {
+      "id": "c3b8",
+      "profileId": "1",
+      "term": "efficiency",
+      "definition": "능률, 효율",
+      "level": 0,
+      "exampleSentence": "The new system improved the overall efficiency of the process.",
+      "meaningOfExampleSentence": "새로운 시스템은 전체 과정의 효율을 향상시켰습니다."
+    },
+    {
+      "id": "4b0b",
+      "profileId": "1",
+      "term": "commit",
+      "definition": "전념하다",
+      "level": 0,
+      "exampleSentence": "He decided to commit himself fully to the project.",
+      "meaningOfExampleSentence": "그는 프로젝트에 전적으로 전념하기로 결정했습니다."
+    },
+    {
+      "id": "7e22",
+      "profileId": "1",
+      "term": "abolish",
+      "definition": "폐지하다",
+      "level": 0,
+      "exampleSentence": "Many activists are working to abolish outdated laws.",
+      "meaningOfExampleSentence": "많은 활동가들이 구식 법률을 폐지하기 위해 노력하고 있습니다."
+    },
+    {
+      "id": "24f1",
+      "profileId": "1",
+      "term": "house",
+      "definition": "장소를 제공하다",
+      "level": 0,
+      "exampleSentence": "The community center will house the new after-school program.",
+      "meaningOfExampleSentence": "커뮤니티 센터는 새로운 방과 후 프로그램의 장소를 제공할 것입니다."
+    },
+    {
+      "id": "c388",
+      "profileId": "1",
+      "term": "examine",
+      "definition": "조사하다",
+      "level": 0,
+      "exampleSentence": "The scientist will examine the samples under a microscope.",
+      "meaningOfExampleSentence": "과학자는 현미경으로 샘플을 조사할 것입니다."
+    },
+    {
+      "id": "68c3",
+      "profileId": "1",
+      "term": "emerge",
+      "definition": "나타나다",
+      "level": 0,
+      "exampleSentence": "A new leader emerged from the group during the crisis.",
+      "meaningOfExampleSentence": "위기 상황에서 새로운 지도자가 등장했습니다."
+    },
+    {
+      "id": "673c",
+      "profileId": "1",
+      "term": "deposit",
+      "definition": "두다, 맡기다",
+      "level": 0,
+      "exampleSentence": "She decided to deposit some money into her savings account.",
+      "meaningOfExampleSentence": "그녀는 저축 계좌에 돈을 입금하기로 결정했습니다."
+    },
+    {
+      "id": "c807",
+      "profileId": "1",
+      "term": "incur",
+      "definition": "초래하다",
+      "level": 0,
+      "exampleSentence": "Unexpected expenses can incur additional costs.",
+      "meaningOfExampleSentence": "예상치 못한 비용은 추가 비용을 초래할 수 있습니다."
+    },
+    {
+      "id": "4416",
+      "profileId": "1",
+      "term": "occurence",
+      "definition": "발생, 출현",
+      "level": 0,
+      "exampleSentence": "The sudden occurence of the storm surprised everyone.",
+      "meaningOfExampleSentence": "폭풍의 갑작스러운 발생은 모두를 놀라게 했습니다."
+    },
+    {
+      "id": "2986",
+      "profileId": "1",
+      "term": "suspicious",
+      "definition": "의심스러운",
+      "level": 0,
+      "exampleSentence": "His behavior at the scene was considered suspicious by the police.",
+      "meaningOfExampleSentence": "현장에서 그의 행동은 경찰에 의해 의심스럽게 여겨졌습니다."
+    },
+    {
+      "id": "d8c9",
+      "profileId": "1",
+      "term": "further",
+      "definition": "추후의",
+      "level": 0,
+      "exampleSentence": "Further investigations will be conducted next week.",
+      "meaningOfExampleSentence": "추가 조사는 다음 주에 진행될 예정입니다."
+    },
+    {
+      "id": "8678",
+      "term": "contend",
+      "definition": "주장하다, 다투다",
+      "exampleSentence": "Nurses often have to contend with violent or drunken patients",
+      "meaningOfExampleSentence": "간호사들은 폭력적이거나 술 취한 환자들과도 자주 씨름을 벌여야 한다",
       "profileId": "1",
       "level": 0
     },
     {
-      "id": "f96a",
-      "term": "initiate",
-      "definition": "시작하다",
+      "id": "4aad",
+      "term": "supplement",
+      "definition": "보충제",
+      "exampleSentence": "The diet supplement",
+      "meaningOfExampleSentence": "다이어트 보충제",
       "profileId": "1",
-      "level": 2
+      "level": 0
     },
     {
-      "id": "7efe",
-      "term": "persist",
-      "definition": "끈질기게 계속하다",
+      "id": "cebd",
+      "term": "feature",
+      "definition": "포함하다",
+      "exampleSentence": "feature several exciting upgrades",
+      "meaningOfExampleSentence": "몇 가지 흥미로운 개선을 포함하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "6dcf",
+      "term": "envision",
+      "definition": "상상하다",
+      "exampleSentence": "They didn’t envision any problems with the new building",
+      "meaningOfExampleSentence": "그들은 그 새 건물에 무슨 문제가 있으리라고는 상상하지 않았다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "7076",
+      "term": "acclaim",
+      "definition": "환호하다",
+      "exampleSentence": "a highly/widely acclaimed performance",
+      "meaningOfExampleSentence": "크게/널리 환호를 받은 공연",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "0968",
+      "term": "intensify",
+      "definition": "강화하다",
+      "exampleSentence": "Violence intensified during the night",
+      "meaningOfExampleSentence": "밤사이에 폭력 사태가 더 격렬해졌다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "4054",
+      "term": "modify",
+      "definition": "수정하다",
+      "exampleSentence": "The software we use has been modified for us",
+      "meaningOfExampleSentence": "우리가 사용하는 소프트웨어는 우리에게 맞도록 변경한 것이다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "087e",
+      "term": "conform",
+      "definition": "따르다",
+      "exampleSentence": "There is considerable pressure on teenagers to conform",
+      "meaningOfExampleSentence": "십대들에게는 또래 집단과 같이 행동해야 한다는 압박감이 상당하다",
+      "profileId": "1",
+      "level": 0
+    },
+    {
+      "id": "cb18",
+      "term": "determine",
+      "definition": "알아내다",
+      "exampleSentence": "An inquiry was set up to determine the cause of the accident",
+      "meaningOfExampleSentence": "그 사고의 원인을 밝히기 위한 조사단이 발족되었다",
       "profileId": "1",
       "level": 0
     }

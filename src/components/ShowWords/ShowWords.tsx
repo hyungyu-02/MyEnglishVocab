@@ -18,6 +18,7 @@ interface ShowWordsProps {
   onEditSave: () => void;
   onEditCancel: () => void;
   onDeleteCancel: () => void;
+  onViewExample: (word: Word) => void; // 새로 추가된 prop
 }
 
 const ShowWords: React.FC<ShowWordsProps> = ({
@@ -33,7 +34,8 @@ const ShowWords: React.FC<ShowWordsProps> = ({
   onEditDefinitionChange,
   onEditSave,
   onEditCancel,
-  onDeleteCancel
+  onDeleteCancel,
+  onViewExample
 }) => {
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -54,6 +56,7 @@ const ShowWords: React.FC<ShowWordsProps> = ({
           <th className={styles.levelCol}>레벨</th>
           <th className={styles.actionCol}>수정</th>
           <th className={styles.actionCol}>삭제</th>
+          <th className={styles.actionCol}>예문</th> {/* 새 컬럼 */}
         </tr>
       </thead>
       <tbody className={styles.tableBody}>
@@ -122,6 +125,17 @@ const ShowWords: React.FC<ShowWordsProps> = ({
                   isDeleting={isDeleting}
                   onEditCancel={onEditCancel}
                 />
+              </td>
+
+              {/* View Example Column */}
+              <td className={styles.actionCol} data-label="예문보기">
+                <button
+                  onClick={() => onViewExample(word)}
+                  className={styles.viewExampleButton}
+                  aria-label={`View example for ${word.term}`}
+                >
+                  <img src='./example.svg' alt='view' className={styles.viewSVG}/>
+                </button>
               </td>
             </tr>
           );

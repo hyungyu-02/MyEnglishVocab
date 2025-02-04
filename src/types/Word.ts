@@ -4,4 +4,6 @@ export interface Word {
     term: string;
     definition: string;
     level: number;
+    exampleSentence: string;
+    meaningOfExampleSentence: string;
 }

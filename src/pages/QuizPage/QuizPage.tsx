@@ -14,8 +14,6 @@ const QuizPage: React.FC = () => {
   const isWordsLoaded = useRef(false);
 
   useEffect(() => {
-    console.log('QuizPage rendered');
-    console.log(words[0], words[1], words[2]);
     if (!selectedProfile) {
       navigate('/');
       return;
@@ -36,8 +34,35 @@ const QuizPage: React.FC = () => {
     };
   }, [selectedProfile, navigate]);
 
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'ArrowRight') {
+        if(showDefinition){
+          handleNext();
+        }else{
+          handleShowDefinition();
+        }
+      }
+      if(event.key === 'Enter' && showDefinition){
+        if(window.confirm(`The level of "${currentWord.term}" increases to ${currentWord.level + 1}`)){
+          handleMarkAsLearned();
+        }
+      }
+      if(event.key === 'Enter' && !showDefinition){
+        handleShowDefinition();
+      }
+    };
+
+    // 이벤트 리스너 추가
+    window.addEventListener('keydown', handleKeyDown);
+
+    // 클린업: 컴포넌트 언마운트 시 이벤트 리스너 제거
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [currentIndex, words, showDefinition]);
+
   const handleDelete = async (id: string) => {
-    console.log(words[0], words[1], words[2]);
     setShowDefinition(false);
     try{
       const response = await fetch(`http://localhost:3001/words/${id}`, { method: 'DELETE' });
@@ -50,18 +75,15 @@ const QuizPage: React.FC = () => {
   };
 
   const handleShowDefinition = () => {
-    console.log(words[0], words[1], words[2]);
     setShowDefinition(true);
   };
 
   const handleNext = () => {
-    console.log(words[0], words[1], words[2]);
     setShowDefinition(false);
     setCurrentIndex((prev) => prev + 1);
   };
 
   const handleMarkAsLearned = async () => {
-    console.log(words[0], words[1], words[2]);
     if (currentIndex >= words.length) return;
     const word = words[currentIndex];
 
@@ -117,9 +139,11 @@ const QuizPage: React.FC = () => {
       <div className={styles.quizArea}>
         <p><strong>Lv:</strong> {currentWord.level}</p>
         <p><strong>단어:</strong> {currentWord.term}</p>
+        <p><strong>예문:</strong> {currentWord.exampleSentence}</p>
         {showDefinition && (
           <>
             <p><strong>뜻:</strong> {currentWord.definition}</p>
+            <p><strong>예문 뜻:</strong> {currentWord.meaningOfExampleSentence}</p>
             <button
               onClick={() => {
                 if(window.confirm(`The level of "${currentWord.term}" increases to ${currentWord.level + 1}`)){
